@@ -1,0 +1,1594 @@
+[2024-01-04 20:19:57,181::sample::INFO] Namespace(bbox_size=27.0, center=[-16.2, 31.6, -26.7], config='./configs/sample_for_pdb.yml', device='cpu', outdir='./outputs', pdb_path='./example/7nng.pdb')
+[2024-01-04 20:19:57,181::sample::INFO] {'model': {'checkpoint': './ckpt/pretrained_Pocket2Mol.pt'}, 'sample': {'seed': 2020, 'num_samples': 100, 'beam_size': 300, 'max_steps': 50, 'threshold': {'focal_threshold': 0.5, 'pos_threshold': 0.25, 'element_threshold': 0.3, 'hasatom_threshold': 0.6, 'bond_threshold': 0.4}}}
+[2024-01-04 20:19:57,182::sample::INFO] Loading data...
+[2024-01-04 20:19:57,434::sample::INFO] Loading main model...
+[2024-01-04 20:19:57,533::sample::INFO] Initialization
+[2024-01-04 20:20:04,135::sample::INFO] [Pool] Queue 46 | Finished 0 | Failed 0
+[2024-01-04 20:20:04,135::sample::INFO] Saving samples...
+[2024-01-04 20:20:04,212::sample::INFO] Start sampling
+[2024-01-04 20:22:53,809::sample::INFO] [Pool] Queue 89 | Finished 0 | Failed 0
+[2024-01-04 20:25:36,871::sample::INFO] Success: O=O
+[2024-01-04 20:28:22,707::sample::INFO] [Pool] Queue 203 | Finished 1 | Failed 0
+[2024-01-04 20:30:29,372::sample::INFO] Success: C#CC
+[2024-01-04 20:37:11,566::sample::INFO] Success: O=CO
+[2024-01-04 20:37:34,410::sample::WARNING] Duplicate molecule: O=CO
+[2024-01-04 20:37:42,059::sample::WARNING] Duplicate molecule: O=CO
+[2024-01-04 20:41:12,793::sample::INFO] [Pool] Queue 300 | Finished 3 | Failed 0
+[2024-01-04 20:41:28,635::sample::INFO] Success: CC(=O)O
+[2024-01-04 20:42:30,432::sample::INFO] Success: CC(N)=O
+[2024-01-04 20:42:34,230::sample::WARNING] Duplicate molecule: CC(N)=O
+[2024-01-04 20:43:36,046::sample::WARNING] Duplicate molecule: CC(=O)O
+[2024-01-04 20:43:39,870::sample::WARNING] Duplicate molecule: CC(N)=O
+[2024-01-04 20:43:47,546::sample::WARNING] Duplicate molecule: CC(=O)O
+[2024-01-04 20:45:28,014::sample::INFO] Success: O=C(O)O
+[2024-01-04 20:46:48,614::sample::WARNING] Duplicate molecule: CC(N)=O
+[2024-01-04 20:47:23,420::sample::WARNING] Duplicate molecule: O=C(O)O
+[2024-01-04 20:47:57,889::sample::WARNING] Duplicate molecule: CC(=O)O
+[2024-01-04 20:49:25,876::sample::WARNING] Duplicate molecule: CC(=O)O
+[2024-01-04 20:49:37,306::sample::INFO] Success: NC(=O)O
+[2024-01-04 20:49:52,728::sample::INFO] Success: NC(N)=O
+[2024-01-04 20:50:49,940::sample::INFO] Success: CC#CC
+[2024-01-04 20:51:01,433::sample::WARNING] Duplicate molecule: CC(=O)O
+[2024-01-04 20:51:20,471::sample::WARNING] Duplicate molecule: NC(N)=O
+[2024-01-04 20:53:08,096::sample::WARNING] Duplicate molecule: CC(=O)O
+[2024-01-04 20:53:23,385::sample::WARNING] Duplicate molecule: NC(=O)O
+[2024-01-04 20:54:28,480::sample::WARNING] Duplicate molecule: CC(N)=O
+[2024-01-04 20:56:26,776::sample::WARNING] Duplicate molecule: CC(=O)O
+[2024-01-04 20:57:08,784::sample::WARNING] Duplicate molecule: CC#CC
+[2024-01-04 20:59:14,423::sample::WARNING] Duplicate molecule: NC(N)=O
+[2024-01-04 21:00:15,485::sample::WARNING] Duplicate molecule: CC(=O)O
+[2024-01-04 21:00:23,150::sample::INFO] [Pool] Queue 300 | Finished 9 | Failed 0
+[2024-01-04 21:00:39,459::sample::INFO] Success: COCCO
+[2024-01-04 21:03:50,750::sample::INFO] Success: CCC(=O)O
+[2024-01-04 21:08:19,188::sample::INFO] Success: CCCNC
+[2024-01-04 21:14:04,910::sample::INFO] Success: C#CCCC
+[2024-01-04 21:19:41,497::sample::INFO] [Pool] Queue 300 | Finished 13 | Failed 0
+[2024-01-04 21:26:03,883::sample::INFO] Success: NC(=O)C(=O)O
+[2024-01-04 21:33:55,279::sample::INFO] Success: C1=CCCC=C1
+[2024-01-04 21:34:22,391::sample::INFO] Success: ClC1CCCC1
+[2024-01-04 21:39:11,119::sample::INFO] [Pool] Queue 300 | Finished 16 | Failed 0
+[2024-01-04 21:39:39,608::sample::INFO] Success: O=C1NC=C=CN1
+[2024-01-04 21:41:10,252::sample::INFO] Success: Clc1ccccc1
+[2024-01-04 21:44:07,412::sample::WARNING] Duplicate molecule: Clc1ccccc1
+[2024-01-04 21:47:07,936::sample::INFO] Success: C#CCCCC=C
+[2024-01-04 21:49:51,394::sample::WARNING] Duplicate molecule: Clc1ccccc1
+[2024-01-04 21:50:45,899::sample::WARNING] Duplicate molecule: Clc1ccccc1
+[2024-01-04 21:53:10,068::sample::INFO] Success: N#CCCC(=O)O
+[2024-01-04 21:53:13,840::sample::WARNING] Duplicate molecule: Clc1ccccc1
+[2024-01-04 21:55:56,491::sample::WARNING] Duplicate molecule: Clc1ccccc1
+[2024-01-04 21:57:09,352::sample::INFO] Success: CC1=C(Cl)C=CC1
+[2024-01-04 21:57:32,346::sample::WARNING] Duplicate molecule: Clc1ccccc1
+[2024-01-04 21:58:34,205::sample::WARNING] Duplicate molecule: Clc1ccccc1
+[2024-01-04 21:58:41,924::sample::INFO] [Pool] Queue 300 | Finished 21 | Failed 0
+[2024-01-04 21:59:29,981::sample::INFO] Success: Fc1ccccc1Cl
+[2024-01-04 22:02:12,228::sample::INFO] Success: O=C1CCC=C(O)C1
+[2024-01-04 22:03:23,255::sample::INFO] Success: CC1=C(Cl)CC=CC1
+[2024-01-04 22:05:25,836::sample::INFO] Success: CCC(=O)CC(=O)O
+[2024-01-04 22:07:34,901::sample::INFO] Success: O=C(O)c1ccsc1
+[2024-01-04 22:09:35,576::sample::WARNING] Duplicate molecule: O=C(O)c1ccsc1
+[2024-01-04 22:12:06,267::sample::INFO] Success: Fc1ccc(Cl)cc1
+[2024-01-04 22:12:10,109::sample::WARNING] Duplicate molecule: CCC(=O)CC(=O)O
+[2024-01-04 22:15:35,017::sample::WARNING] Duplicate molecule: Fc1ccc(Cl)cc1
+[2024-01-04 22:16:25,246::sample::INFO] Success: Cc1ccccc1Cl
+[2024-01-04 22:16:32,934::sample::INFO] Success: COc1ccccc1
+[2024-01-04 22:18:13,877::sample::INFO] [Pool] Queue 300 | Finished 29 | Failed 0
+[2024-01-04 22:22:44,394::sample::INFO] Success: C#CCc1ccccc1
+[2024-01-04 22:26:16,613::sample::INFO] Success: COc1ccccc1N
+[2024-01-04 22:26:35,982::sample::INFO] Success: C#CCC1=CCCC=C1
+[2024-01-04 22:28:51,734::sample::WARNING] Duplicate molecule: C#CCc1ccccc1
+[2024-01-04 22:31:46,042::sample::INFO] Success: O=P(O)(O)OP(=O)(O)O
+[2024-01-04 22:37:25,181::sample::WARNING] Duplicate molecule: C#CCc1ccccc1
+[2024-01-04 22:37:44,612::sample::INFO] [Pool] Queue 300 | Finished 33 | Failed 0
+[2024-01-04 22:53:48,443::sample::INFO] Success: N#CC1CCC(C(=O)O)C1
+[2024-01-04 22:57:25,376::sample::INFO] [Pool] Queue 300 | Finished 34 | Failed 0
+[2024-01-04 22:58:50,793::sample::INFO] Success: O=P(O)(O)OCCOCCO
+[2024-01-04 23:01:38,503::sample::WARNING] Duplicate molecule: O=P(O)(O)OCCOCCO
+[2024-01-04 23:05:40,547::sample::WARNING] Duplicate molecule: O=P(O)(O)OCCOCCO
+[2024-01-04 23:17:06,143::sample::INFO] [Pool] Queue 300 | Finished 35 | Failed 0
+[2024-01-04 23:23:16,665::sample::INFO] Success: O=C(COP(=O)(O)O)OCCO
+[2024-01-04 23:36:52,787::sample::INFO] [Pool] Queue 300 | Finished 36 | Failed 0
+[2024-01-04 23:38:06,268::sample::INFO] Success: O=P(O)(O)OP(=O)(O)OP(=O)(O)O
+[2024-01-04 23:38:54,704::sample::INFO] Success: O=C(O)CNC(=O)COP(=O)(O)O
+[2024-01-04 23:39:27,022::sample::WARNING] Duplicate molecule: O=C(O)CNC(=O)COP(=O)(O)O
+[2024-01-04 23:42:48,134::sample::INFO] Success: O=C(O)c1cc(CCC(O)O)co1
+[2024-01-04 23:44:08,252::sample::WARNING] Duplicate molecule: O=P(O)(O)OP(=O)(O)OP(=O)(O)O
+[2024-01-04 23:45:47,580::sample::WARNING] Duplicate molecule: O=P(O)(O)OP(=O)(O)OP(=O)(O)O
+[2024-01-04 23:48:02,968::sample::INFO] Success: O=P(O)(O)OCC(CO)OCCO
+[2024-01-04 23:48:22,531::sample::WARNING] Duplicate molecule: O=P(O)(O)OP(=O)(O)OP(=O)(O)O
+[2024-01-04 23:50:13,377::sample::INFO] Success: O=C(O)c1cc2c(o1)C(=O)N=CC2
+[2024-01-04 23:52:46,092::sample::WARNING] Duplicate molecule: O=C(O)CNC(=O)COP(=O)(O)O
+[2024-01-04 23:54:47,826::sample::WARNING] Duplicate molecule: O=P(O)(O)OP(=O)(O)OP(=O)(O)O
+[2024-01-04 23:55:07,463::sample::INFO] Success: O=C(O)CCC(=O)N(O)CC(=O)O
+[2024-01-04 23:56:06,113::sample::INFO] Success: O=C(COCCO)COP(=O)(O)O
+[2024-01-04 23:56:21,640::sample::WARNING] Duplicate molecule: O=P(O)(O)OP(=O)(O)OP(=O)(O)O
+[2024-01-04 23:56:41,129::sample::INFO] Success: O=C(COP(=O)(O)O)OCCCO
+[2024-01-04 23:56:45,065::sample::INFO] [Pool] Queue 300 | Finished 44 | Failed 0
+[2024-01-04 23:57:46,767::sample::INFO] Success: O=C(O)C(CCOP(=O)(O)O)C(=O)O
+[2024-01-05 00:00:32,803::sample::INFO] Success: O=P(O)(O)OCC(O)COP(=O)(O)O
+[2024-01-05 00:00:44,682::sample::INFO] Success: O=C(O)CCNC(=O)COP(=O)(O)O
+[2024-01-05 00:02:25,017::sample::INFO] Success: CC1OC(COP(=O)(O)O)COC1=O
+[2024-01-05 00:04:44,924::sample::WARNING] Duplicate molecule: O=C(O)C(CCOP(=O)(O)O)C(=O)O
+[2024-01-05 00:06:32,592::sample::WARNING] Duplicate molecule: O=C(O)CCNC(=O)COP(=O)(O)O
+[2024-01-05 00:10:01,862::sample::INFO] Success: CNC1CC(=O)C(COP(=O)(O)O)O1
+[2024-01-05 00:12:03,464::sample::WARNING] Duplicate molecule: O=P(O)(O)OCC(O)COP(=O)(O)O
+[2024-01-05 00:16:37,414::sample::INFO] [Pool] Queue 300 | Finished 49 | Failed 0
+[2024-01-05 00:16:46,337::sample::INFO] Success: O=P(O)(O)OCC1OC(O)C(O)CC1O
+[2024-01-05 00:19:33,000::sample::INFO] Success: COP(=O)(O)OCC(O)COP(=O)(O)O
+[2024-01-05 00:19:41,003::sample::WARNING] Duplicate molecule: COP(=O)(O)OCC(O)COP(=O)(O)O
+[2024-01-05 00:19:53,230::sample::INFO] Success: CC(C)(C)c1ccc(CNC(=O)O)nc1
+[2024-01-05 00:21:33,839::sample::INFO] Success: NC(=O)n1ccc(C(=O)NCC(=O)O)c1
+[2024-01-05 00:23:50,783::sample::WARNING] Duplicate molecule: O=P(O)(O)OCC1OC(O)C(O)CC1O
+[2024-01-05 00:27:29,614::sample::INFO] Success: O=C(O)c1cc(C(=O)O)cc([N+](=O)[O-])c1
+[2024-01-05 00:29:11,805::sample::WARNING] Duplicate molecule: O=C(O)c1cc(C(=O)O)cc([N+](=O)[O-])c1
+[2024-01-05 00:32:11,968::sample::WARNING] Duplicate molecule: COP(=O)(O)OCC(O)COP(=O)(O)O
+[2024-01-05 00:32:15,841::sample::WARNING] Duplicate molecule: NC(=O)n1ccc(C(=O)NCC(=O)O)c1
+[2024-01-05 00:33:26,236::sample::WARNING] Duplicate molecule: O=P(O)(O)OCC1OC(O)C(O)CC1O
+[2024-01-05 00:36:30,140::sample::INFO] [Pool] Queue 300 | Finished 54 | Failed 0
+[2024-01-05 00:36:39,080::sample::INFO] Success: O=P(O)(O)OCC1OC(O)C(O)C(O)C1O
+[2024-01-05 00:38:00,868::sample::INFO] Success: NC(=O)CCCNC(=O)C(=O)OP(=O)(O)O
+[2024-01-05 00:39:02,377::sample::WARNING] Duplicate molecule: O=P(O)(O)OCC1OC(O)C(O)C(O)C1O
+[2024-01-05 00:40:07,620::sample::INFO] Success: O=C(O)CN1C=CCC(NC(=O)CO)C1=O
+[2024-01-05 00:40:27,974::sample::INFO] Success: O=P(O)(O)OCC(COC=NO)OCCO
+[2024-01-05 00:42:08,544::sample::WARNING] Duplicate molecule: NC(=O)CCCNC(=O)C(=O)OP(=O)(O)O
+[2024-01-05 00:42:20,710::sample::WARNING] Duplicate molecule: NC(=O)CCCNC(=O)C(=O)OP(=O)(O)O
+[2024-01-05 00:42:28,821::sample::INFO] Success: O=P(O)(O)OCC1CC2CC(O1)C(O)C2O
+[2024-01-05 00:42:41,045::sample::WARNING] Duplicate molecule: O=C(O)CN1C=CCC(NC(=O)CO)C1=O
+[2024-01-05 00:42:57,155::sample::INFO] Success: O=C1OC2C(OP(=O)(O)O)=COC2OC1O
+[2024-01-05 00:43:49,721::sample::WARNING] Duplicate molecule: NC(=O)CCCNC(=O)C(=O)OP(=O)(O)O
+[2024-01-05 00:43:53,659::sample::INFO] Success: O=P(O)(O)OP(=O)(O)OP(=O)(O)OCCO
+[2024-01-05 00:43:57,593::sample::WARNING] Duplicate molecule: NC(=O)CCCNC(=O)C(=O)OP(=O)(O)O
+[2024-01-05 00:44:58,032::sample::INFO] Success: NC(=O)NCC(O)COCCOP(=O)(O)O
+[2024-01-05 00:45:50,133::sample::WARNING] Duplicate molecule: NC(=O)CCCNC(=O)C(=O)OP(=O)(O)O
+[2024-01-05 00:48:02,174::sample::INFO] Success: O=C1OC(CO)C(OP(=O)(O)O)C(O)C1O
+[2024-01-05 00:55:13,878::sample::INFO] Success: C=C1CC(OC(CO)COP(=O)(O)O)CN1
+[2024-01-05 00:55:37,286::sample::INFO] Success: O=C(O)NC(=O)c1ccc(C(=O)O)c(O)c1
+[2024-01-05 00:55:53,030::sample::WARNING] Duplicate molecule: NC(=O)NCC(O)COCCOP(=O)(O)O
+[2024-01-05 00:56:20,776::sample::INFO] Success: CCCC(O)C(O)C(=O)NC(=O)CC(=O)O
+[2024-01-05 00:56:32,751::sample::INFO] [Pool] Queue 300 | Finished 66 | Failed 0
+[2024-01-05 00:56:49,894::sample::INFO] Success: CN1C=Cc2ccc(O)c(OP(=O)(O)O)c2C1
+[2024-01-05 00:57:30,716::sample::INFO] Success: NC(=O)c1cc(COP(=O)(O)O)cc(O)c1O
+[2024-01-05 00:57:38,865::sample::INFO] Success: CC1(C)CCNC(C(=O)NC(=O)CC(=O)O)C1
+[2024-01-05 00:58:23,992::sample::INFO] Success: O=C(O)CNCC(O)C(O)C(O)OP(=O)(O)O
+[2024-01-05 01:02:12,040::sample::INFO] Success: NC(=O)NC(=O)C(=O)NCC(=O)OP(=O)(O)O
+[2024-01-05 01:02:28,078::sample::INFO] Success: CN1CCc2ccc(O)c(OP(=O)(O)O)c2C1
+[2024-01-05 01:03:32,576::sample::INFO] Success: O=C(O)C(=O)Nc1cc(F)cc(C(=O)O)c1O
+[2024-01-05 01:04:36,974::sample::WARNING] Duplicate molecule: NC(=O)NC(=O)C(=O)NCC(=O)OP(=O)(O)O
+[2024-01-05 01:05:37,193::sample::INFO] Success: O=C(CO)NC1CC=CN(C(=O)C(=O)O)C1=O
+[2024-01-05 01:08:45,186::sample::INFO] Success: Cc1c(C(O)COP(=O)(O)O)ccn(O)c1=O
+[2024-01-05 01:09:20,546::sample::WARNING] Duplicate molecule: CN1CCc2ccc(O)c(OP(=O)(O)O)c2C1
+[2024-01-05 01:09:32,392::sample::WARNING] Duplicate molecule: O=C(O)C(=O)Nc1cc(F)cc(C(=O)O)c1O
+[2024-01-05 01:09:48,135::sample::WARNING] Duplicate molecule: Cc1c(C(O)COP(=O)(O)O)ccn(O)c1=O
+[2024-01-05 01:11:10,530::sample::INFO] Success: O=C(O)NC(=O)c1cc(F)cc(C(=O)O)c1O
+[2024-01-05 01:11:52,513::sample::WARNING] Duplicate molecule: CN1CCc2ccc(O)c(OP(=O)(O)O)c2C1
+[2024-01-05 01:13:08,766::sample::WARNING] Duplicate molecule: CN1CCc2ccc(O)c(OP(=O)(O)O)c2C1
+[2024-01-05 01:14:13,473::sample::INFO] Success: NC(=O)NC(=O)C(=O)N1CC(O)C(O)C(O)C1
+[2024-01-05 01:14:32,597::sample::WARNING] Duplicate molecule: NC(=O)c1cc(COP(=O)(O)O)cc(O)c1O
+[2024-01-05 01:16:23,014::sample::INFO] [Pool] Queue 300 | Finished 77 | Failed 0
+[2024-01-05 01:16:27,893::sample::INFO] Success: CN(C)CCC(NCC(=O)O)C(=O)OP(=O)(O)O
+[2024-01-05 01:16:40,236::sample::INFO] Success: NC(=O)NC(=O)C(=O)N1CC=C(C(=O)O)C(O)C1
+[2024-01-05 01:17:29,278::sample::INFO] Success: CN(C)C1OC(C(CO)OP(=O)(O)O)C(O)C1O
+[2024-01-05 01:17:41,555::sample::INFO] Success: O=C(O)CCOP(=O)(O)OP(=O)(O)OP(=O)(O)O
+[2024-01-05 01:17:58,020::sample::INFO] Success: NC(=O)n1ccc(C2=NC(O)C3CCCC3N2)c1
+[2024-01-05 01:19:23,853::sample::INFO] Success: O=P(O)(O)OC1CC2CC3C(O)CC(O)C2OC13
+[2024-01-05 01:20:12,520::sample::INFO] Success: C=C(CC(=O)O)C(=O)NCCCCCP(=O)(O)O
+[2024-01-05 01:20:24,821::sample::INFO] Success: CC(=NO)C(=CCN(C)CCO)COP(=O)(O)O
+[2024-01-05 01:22:59,145::sample::INFO] Success: O=C1COP(=O)(O)OCC(O)COP(=O)(O)OC1
+[2024-01-05 01:23:35,167::sample::WARNING] Duplicate molecule: CN(C)CCC(NCC(=O)O)C(=O)OP(=O)(O)O
+[2024-01-05 01:24:47,703::sample::WARNING] Duplicate molecule: C=C(CC(=O)O)C(=O)NCCCCCP(=O)(O)O
+[2024-01-05 01:25:15,354::sample::WARNING] Duplicate molecule: O=P(O)(O)OC1CC2CC3C(O)CC(O)C2OC13
+[2024-01-05 01:27:19,329::sample::WARNING] Duplicate molecule: O=C(O)CCOP(=O)(O)OP(=O)(O)OP(=O)(O)O
+[2024-01-05 01:27:43,234::sample::INFO] Success: COP(=O)(O)OCC(COP(=O)(O)O)OCCO
+[2024-01-05 01:28:50,599::sample::WARNING] Duplicate molecule: NC(=O)n1ccc(C2=NC(O)C3CCCC3N2)c1
+[2024-01-05 01:31:09,016::sample::INFO] Success: CCCC(c1ccccc1)C1CC2CCCC2C1
+[2024-01-05 01:32:38,659::sample::WARNING] Duplicate molecule: NC(=O)NC(=O)C(=O)N1CC=C(C(=O)O)C(O)C1
+[2024-01-05 01:35:59,075::sample::INFO] Success: Cc1cccc(-c2ccc(CNC(=O)O)nc2)c1
+[2024-01-05 01:36:02,917::sample::WARNING] Duplicate molecule: CN(C)C1OC(C(CO)OP(=O)(O)O)C(O)C1O
+[2024-01-05 01:36:22,793::sample::INFO] [Pool] Queue 300 | Finished 89 | Failed 0
+[2024-01-05 01:36:36,119::sample::INFO] Success: CN(CCCNC(N)=O)c1cc(CO)oc(=O)c1O
+[2024-01-05 01:37:59,380::sample::INFO] Success: O=C(O)CC(=O)NC(=O)C1OC(O)C(O)C(O)C1O
+[2024-01-05 01:38:49,172::sample::INFO] Success: O=C(O)C(=O)NC(=O)c1cc(F)cc(C(=O)O)c1O
+[2024-01-05 01:39:01,383::sample::INFO] Success: CCCC(O)CC(OCC(=O)O)C(=O)OP(=O)(O)O
+[2024-01-05 01:41:14,037::sample::INFO] Success: NC(=O)Nc1cc(O)c(CCOP(=O)(O)O)cc1O
+[2024-01-05 01:42:07,550::sample::WARNING] Duplicate molecule: O=C(O)CC(=O)NC(=O)C1OC(O)C(O)C(O)C1O
+[2024-01-05 01:42:15,779::sample::INFO] Success: O=C(O)COC(COP(=O)(O)O)=C1OCC(O)C1O
+[2024-01-05 01:44:06,936::sample::INFO] Success: NC(=O)NC(=O)C(=O)N1CC(C(=O)O)=C(O)C(O)C1
+[2024-01-05 01:46:21,171::sample::INFO] Success: O=P(O)(O)OP(=O)(OCCCO)OCC(O)C(O)O
+[2024-01-05 01:47:29,966::sample::INFO] Success: COC1CC(O)C2OC3C(OP(=O)(O)O)CC2CC13
+[2024-01-05 01:48:42,080::sample::WARNING] Duplicate molecule: CN(CCCNC(N)=O)c1cc(CO)oc(=O)c1O
+[2024-01-05 01:49:10,019::sample::WARNING] Duplicate molecule: NC(=O)Nc1cc(O)c(CCOP(=O)(O)O)cc1O
+[2024-01-05 01:49:13,974::sample::WARNING] Duplicate molecule: O=C(O)COC(COP(=O)(O)O)=C1OCC(O)C1O
+[2024-01-05 01:49:42,581::sample::WARNING] Duplicate molecule: CN(CCCNC(N)=O)c1cc(CO)oc(=O)c1O
+[2024-01-05 01:51:31,180::sample::WARNING] Duplicate molecule: O=C(O)CC(=O)NC(=O)C1OC(O)C(O)C(O)C1O
+[2024-01-05 01:53:27,076::sample::WARNING] Duplicate molecule: NC(=O)Nc1cc(O)c(CCOP(=O)(O)O)cc1O
+[2024-01-05 01:56:41,269::sample::INFO] [Pool] Queue 300 | Finished 98 | Failed 0
+[2024-01-05 01:57:19,693::sample::INFO] Success: O=C(O)CCC1C(O)C(CO)OC(OP(=O)(O)O)C1O
+[2024-01-05 01:57:44,526::sample::INFO] Success: CC1Nc2ccccc2CN(CCCNC(N)=O)C1=O
+[2024-01-05 01:59:39,300::sample::INFO] Success: CC(=NO)C(=CCNC(=O)CC(=O)O)COP(=O)(O)O
+[2024-01-05 01:59:43,285::sample::WARNING] Ignoring, because reconstruction error encountered.
+[2024-01-05 02:00:19,819::sample::WARNING] Duplicate molecule: CC(=NO)C(=CCNC(=O)CC(=O)O)COP(=O)(O)O
+[2024-01-05 02:00:48,493::sample::INFO] Success: NC(=O)NCCCN(Cc1ccccc1)C(=O)C(=O)O
+[2024-01-05 02:00:56,565::sample::WARNING] Duplicate molecule: CC(=NO)C(=CCNC(=O)CC(=O)O)COP(=O)(O)O
+[2024-01-05 02:01:04,681::sample::WARNING] Duplicate molecule: O=C(O)CCC1C(O)C(CO)OC(OP(=O)(O)O)C1O
+[2024-01-05 02:03:15,127::sample::INFO] Success: CC(=NO)C(=CCN1CCC(O)CC1)COP(=O)(O)O
+[2024-01-05 02:03:47,677::sample::INFO] Success: NC(=O)Nc1cc(O)c(C(O)COP(=O)(O)O)cc1O
+[2024-01-05 02:04:57,013::sample::INFO] Success: CC(=O)COC(=O)C(O)=C(COP(=O)(O)O)OCCO
+[2024-01-05 02:05:45,614::sample::INFO] Success: NC(=O)NCCCN1Cc2ccccc2NC(O)C1=O
+[2024-01-05 02:06:17,709::sample::WARNING] Ignoring, because reconstruction error encountered.
+[2024-01-05 02:06:33,744::sample::WARNING] Ignoring, because reconstruction error encountered.
+[2024-01-05 02:06:49,841::sample::WARNING] Duplicate molecule: NC(=O)NCCCN1Cc2ccccc2NC(O)C1=O
+[2024-01-05 02:07:14,027::sample::WARNING] Duplicate molecule: NC(=O)NCCCN1Cc2ccccc2NC(O)C1=O
+[2024-01-05 02:10:51,049::sample::INFO] Success: CC(=O)NCC(O)OC(=O)C(=O)n1ccc(C(N)=O)c1
+[2024-01-05 02:11:34,887::sample::INFO] Success: COC(=O)c1cc[nH]c(=O)c1NC(=O)CCNC(N)=O
+[2024-01-05 02:11:58,714::sample::INFO] Success: O=C(O)CC(=O)NC(=O)c1cc(CO)c(O)c(CO)c1
+[2024-01-05 02:12:30,623::sample::INFO] Success: CC(C)C(C)C(OCC(=O)O)C(=O)NC(=O)CC(=O)O
+[2024-01-05 02:12:38,471::sample::WARNING] Duplicate molecule: NC(=O)NCCCN(Cc1ccccc1)C(=O)C(=O)O
+[2024-01-05 02:12:58,544::sample::INFO] Success: O=C(O)COC(COP(=O)(O)O)N1COCC(=O)C1=O
+[2024-01-05 02:14:18,448::sample::WARNING] Duplicate molecule: NC(=O)NCCCN1Cc2ccccc2NC(O)C1=O
+[2024-01-05 02:15:17,878::sample::WARNING] Duplicate molecule: NC(=O)NCCCN(Cc1ccccc1)C(=O)C(=O)O
+[2024-01-05 02:15:53,736::sample::WARNING] Duplicate molecule: CC(=NO)C(=CCNC(=O)CC(=O)O)COP(=O)(O)O
+[2024-01-05 02:16:17,329::sample::WARNING] Duplicate molecule: O=C(O)COC(COP(=O)(O)O)N1COCC(=O)C1=O
+[2024-01-05 02:16:37,043::sample::WARNING] Duplicate molecule: O=C(O)CCC1C(O)C(CO)OC(OP(=O)(O)O)C1O
+[2024-01-05 02:16:44,921::sample::INFO] Success: CN(CCCNC(N)=O)c1c(C(=O)O)ccc(O)c1O
+[2024-01-05 02:16:52,871::sample::INFO] [Pool] Queue 300 | Finished 112 | Failed 3
+[2024-01-05 11:48:12,656::evaluate::INFO] Namespace(exp_name='sample_for_pdb_7nng.pdb_2024_01_04__20_19_57', protein_root='./evaluation/pdb_data', result_root='../outputs')
+[2024-01-05 11:48:12,656::evaluate::INFO] ../outputs/sample_for_pdb_7nng.pdb_2024_01_04__20_19_57/samples_all.pt
+[2024-01-05 11:48:13,712::evaluate::WARNING] Failed 0
+[2024-01-05 11:48:13,712::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:48:13,712::evaluate::WARNING] Failed 1
+[2024-01-05 11:48:13,712::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:48:13,712::evaluate::WARNING] Failed 2
+[2024-01-05 11:48:13,712::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:48:13,712::evaluate::WARNING] Failed 3
+[2024-01-05 11:48:13,712::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:48:13,712::evaluate::WARNING] Failed 4
+[2024-01-05 11:48:13,712::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:48:13,712::evaluate::WARNING] Failed 5
+[2024-01-05 11:48:13,712::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:48:13,713::evaluate::WARNING] Failed 6
+[2024-01-05 11:48:13,713::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:48:13,713::evaluate::WARNING] Failed 7
+[2024-01-05 11:48:13,713::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:48:13,713::evaluate::WARNING] Failed 8
+[2024-01-05 11:48:13,713::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:48:13,713::evaluate::WARNING] Failed 9
+[2024-01-05 11:48:13,713::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:48:13,713::evaluate::WARNING] Failed 10
+[2024-01-05 11:48:13,713::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:48:13,713::evaluate::WARNING] Failed 11
+[2024-01-05 11:48:13,713::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:48:13,713::evaluate::WARNING] Failed 12
+[2024-01-05 11:48:13,713::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:48:13,713::evaluate::WARNING] Failed 13
+[2024-01-05 11:48:13,713::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:48:13,714::evaluate::WARNING] Failed 14
+[2024-01-05 11:48:13,714::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:48:13,714::evaluate::WARNING] Failed 15
+[2024-01-05 11:48:13,714::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:48:13,714::evaluate::WARNING] Failed 16
+[2024-01-05 11:48:13,714::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:48:13,714::evaluate::WARNING] Failed 17
+[2024-01-05 11:48:13,714::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:48:13,714::evaluate::WARNING] Failed 18
+[2024-01-05 11:48:13,714::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:48:13,714::evaluate::WARNING] Failed 19
+[2024-01-05 11:48:13,714::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:48:13,714::evaluate::WARNING] Failed 20
+[2024-01-05 11:48:13,714::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:48:13,715::evaluate::WARNING] Failed 21
+[2024-01-05 11:48:13,715::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:48:13,715::evaluate::WARNING] Failed 22
+[2024-01-05 11:48:13,715::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:48:13,715::evaluate::WARNING] Failed 23
+[2024-01-05 11:48:13,715::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:48:13,715::evaluate::WARNING] Failed 24
+[2024-01-05 11:48:13,715::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:48:13,715::evaluate::WARNING] Failed 25
+[2024-01-05 11:48:13,715::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:48:13,715::evaluate::WARNING] Failed 26
+[2024-01-05 11:48:13,715::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:48:13,716::evaluate::WARNING] Failed 27
+[2024-01-05 11:48:13,716::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:48:13,716::evaluate::WARNING] Failed 28
+[2024-01-05 11:48:13,716::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:48:13,716::evaluate::WARNING] Failed 29
+[2024-01-05 11:48:13,716::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:48:13,716::evaluate::WARNING] Failed 30
+[2024-01-05 11:48:13,716::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:48:13,716::evaluate::WARNING] Failed 31
+[2024-01-05 11:48:13,716::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:48:13,716::evaluate::WARNING] Failed 32
+[2024-01-05 11:48:13,716::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:48:13,717::evaluate::WARNING] Failed 33
+[2024-01-05 11:48:13,717::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:48:13,717::evaluate::WARNING] Failed 34
+[2024-01-05 11:48:13,717::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:48:13,717::evaluate::WARNING] Failed 35
+[2024-01-05 11:48:13,717::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:48:13,717::evaluate::WARNING] Failed 36
+[2024-01-05 11:48:13,717::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:48:13,717::evaluate::WARNING] Failed 37
+[2024-01-05 11:48:13,717::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:48:13,717::evaluate::WARNING] Failed 38
+[2024-01-05 11:48:13,717::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:48:13,718::evaluate::WARNING] Failed 39
+[2024-01-05 11:48:13,718::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:48:13,718::evaluate::WARNING] Failed 40
+[2024-01-05 11:48:13,718::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:48:13,718::evaluate::WARNING] Failed 41
+[2024-01-05 11:48:13,718::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:48:13,718::evaluate::WARNING] Failed 42
+[2024-01-05 11:48:13,718::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:48:13,718::evaluate::WARNING] Failed 43
+[2024-01-05 11:48:13,718::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:48:13,719::evaluate::WARNING] Failed 44
+[2024-01-05 11:48:13,719::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:48:13,719::evaluate::WARNING] Failed 45
+[2024-01-05 11:48:13,719::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:48:13,719::evaluate::WARNING] Failed 46
+[2024-01-05 11:48:13,719::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:48:13,719::evaluate::WARNING] Failed 47
+[2024-01-05 11:48:13,719::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:48:13,720::evaluate::WARNING] Failed 48
+[2024-01-05 11:48:13,720::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:48:13,720::evaluate::WARNING] Failed 49
+[2024-01-05 11:48:13,720::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:48:13,720::evaluate::WARNING] Failed 50
+[2024-01-05 11:48:13,720::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:48:13,720::evaluate::WARNING] Failed 51
+[2024-01-05 11:48:13,720::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:48:13,720::evaluate::WARNING] Failed 52
+[2024-01-05 11:48:13,720::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:48:13,721::evaluate::WARNING] Failed 53
+[2024-01-05 11:48:13,721::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:48:13,721::evaluate::WARNING] Failed 54
+[2024-01-05 11:48:13,721::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:48:13,721::evaluate::WARNING] Failed 55
+[2024-01-05 11:48:13,721::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:48:13,721::evaluate::WARNING] Failed 56
+[2024-01-05 11:48:13,721::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:48:13,721::evaluate::WARNING] Failed 57
+[2024-01-05 11:48:13,721::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:48:13,722::evaluate::WARNING] Failed 58
+[2024-01-05 11:48:13,722::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:48:13,722::evaluate::WARNING] Failed 59
+[2024-01-05 11:48:13,722::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:48:13,722::evaluate::WARNING] Failed 60
+[2024-01-05 11:48:13,722::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:48:13,722::evaluate::WARNING] Failed 61
+[2024-01-05 11:48:13,722::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:48:13,723::evaluate::WARNING] Failed 62
+[2024-01-05 11:48:13,723::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:48:13,723::evaluate::WARNING] Failed 63
+[2024-01-05 11:48:13,723::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:48:13,723::evaluate::WARNING] Failed 64
+[2024-01-05 11:48:13,723::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:48:13,723::evaluate::WARNING] Failed 65
+[2024-01-05 11:48:13,723::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:48:13,723::evaluate::WARNING] Failed 66
+[2024-01-05 11:48:13,723::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:48:13,724::evaluate::WARNING] Failed 67
+[2024-01-05 11:48:13,724::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:48:13,724::evaluate::WARNING] Failed 68
+[2024-01-05 11:48:13,724::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:48:13,724::evaluate::WARNING] Failed 69
+[2024-01-05 11:48:13,724::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:48:13,724::evaluate::WARNING] Failed 70
+[2024-01-05 11:48:13,724::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:48:13,724::evaluate::WARNING] Failed 71
+[2024-01-05 11:48:13,725::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:48:13,725::evaluate::WARNING] Failed 72
+[2024-01-05 11:48:13,725::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:48:13,725::evaluate::WARNING] Failed 73
+[2024-01-05 11:48:13,725::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:48:13,725::evaluate::WARNING] Failed 74
+[2024-01-05 11:48:13,725::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:48:13,725::evaluate::WARNING] Failed 75
+[2024-01-05 11:48:13,725::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:48:13,726::evaluate::WARNING] Failed 76
+[2024-01-05 11:48:13,726::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:48:13,726::evaluate::WARNING] Failed 77
+[2024-01-05 11:48:13,726::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:48:13,726::evaluate::WARNING] Failed 78
+[2024-01-05 11:48:13,726::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:48:13,726::evaluate::WARNING] Failed 79
+[2024-01-05 11:48:13,726::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:48:13,726::evaluate::WARNING] Failed 80
+[2024-01-05 11:48:13,727::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:48:13,727::evaluate::WARNING] Failed 81
+[2024-01-05 11:48:13,727::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:48:13,727::evaluate::WARNING] Failed 82
+[2024-01-05 11:48:13,727::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:48:13,727::evaluate::WARNING] Failed 83
+[2024-01-05 11:48:13,727::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:48:13,727::evaluate::WARNING] Failed 84
+[2024-01-05 11:48:13,727::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:48:13,728::evaluate::WARNING] Failed 85
+[2024-01-05 11:48:13,728::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:48:13,728::evaluate::WARNING] Failed 86
+[2024-01-05 11:48:13,728::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:48:13,728::evaluate::WARNING] Failed 87
+[2024-01-05 11:48:13,728::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:48:13,728::evaluate::WARNING] Failed 88
+[2024-01-05 11:48:13,728::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:48:13,729::evaluate::WARNING] Failed 89
+[2024-01-05 11:48:13,729::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:48:13,729::evaluate::WARNING] Failed 90
+[2024-01-05 11:48:13,729::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:48:13,729::evaluate::WARNING] Failed 91
+[2024-01-05 11:48:13,729::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:48:13,729::evaluate::WARNING] Failed 92
+[2024-01-05 11:48:13,729::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:48:13,730::evaluate::WARNING] Failed 93
+[2024-01-05 11:48:13,730::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:48:13,730::evaluate::WARNING] Failed 94
+[2024-01-05 11:48:13,730::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:48:13,730::evaluate::WARNING] Failed 95
+[2024-01-05 11:48:13,730::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:48:13,730::evaluate::WARNING] Failed 96
+[2024-01-05 11:48:13,730::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:48:13,731::evaluate::WARNING] Failed 97
+[2024-01-05 11:48:13,731::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:48:13,731::evaluate::WARNING] Failed 98
+[2024-01-05 11:48:13,731::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:48:13,731::evaluate::WARNING] Failed 99
+[2024-01-05 11:48:13,731::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:48:13,731::evaluate::WARNING] Failed 100
+[2024-01-05 11:48:13,731::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:48:13,732::evaluate::WARNING] Failed 101
+[2024-01-05 11:48:13,732::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:48:13,732::evaluate::WARNING] Failed 102
+[2024-01-05 11:48:13,732::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:48:13,732::evaluate::WARNING] Failed 103
+[2024-01-05 11:48:13,732::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:48:13,732::evaluate::WARNING] Failed 104
+[2024-01-05 11:48:13,732::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:48:13,732::evaluate::WARNING] Failed 105
+[2024-01-05 11:48:13,733::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:48:13,733::evaluate::WARNING] Failed 106
+[2024-01-05 11:48:13,733::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:48:13,733::evaluate::WARNING] Failed 107
+[2024-01-05 11:48:13,733::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:48:13,733::evaluate::WARNING] Failed 108
+[2024-01-05 11:48:13,733::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:48:13,733::evaluate::WARNING] Failed 109
+[2024-01-05 11:48:13,734::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:48:13,734::evaluate::WARNING] Failed 110
+[2024-01-05 11:48:13,734::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:48:13,734::evaluate::WARNING] Failed 111
+[2024-01-05 11:48:13,734::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:48:13,734::evaluate::INFO] Number of results: 0
+[2024-01-05 11:49:12,780::evaluate::INFO] Namespace(exp_name='sample_for_pdb_7nng.pdb_2024_01_04__20_19_57', protein_root='../evaluation/pdb_data', result_root='../outputs')
+[2024-01-05 11:49:12,781::evaluate::INFO] ../outputs/sample_for_pdb_7nng.pdb_2024_01_04__20_19_57/samples_all.pt
+[2024-01-05 11:49:13,395::evaluate::WARNING] Failed 0
+[2024-01-05 11:49:13,395::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:49:13,395::evaluate::WARNING] Failed 1
+[2024-01-05 11:49:13,395::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:49:13,395::evaluate::WARNING] Failed 2
+[2024-01-05 11:49:13,395::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:49:13,395::evaluate::WARNING] Failed 3
+[2024-01-05 11:49:13,395::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:49:13,395::evaluate::WARNING] Failed 4
+[2024-01-05 11:49:13,395::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:49:13,395::evaluate::WARNING] Failed 5
+[2024-01-05 11:49:13,395::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:49:13,396::evaluate::WARNING] Failed 6
+[2024-01-05 11:49:13,396::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:49:13,396::evaluate::WARNING] Failed 7
+[2024-01-05 11:49:13,396::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:49:13,396::evaluate::WARNING] Failed 8
+[2024-01-05 11:49:13,396::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:49:13,396::evaluate::WARNING] Failed 9
+[2024-01-05 11:49:13,396::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:49:13,396::evaluate::WARNING] Failed 10
+[2024-01-05 11:49:13,396::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:49:13,396::evaluate::WARNING] Failed 11
+[2024-01-05 11:49:13,396::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:49:13,396::evaluate::WARNING] Failed 12
+[2024-01-05 11:49:13,396::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:49:13,396::evaluate::WARNING] Failed 13
+[2024-01-05 11:49:13,396::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:49:13,396::evaluate::WARNING] Failed 14
+[2024-01-05 11:49:13,396::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:49:13,397::evaluate::WARNING] Failed 15
+[2024-01-05 11:49:13,397::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:49:13,397::evaluate::WARNING] Failed 16
+[2024-01-05 11:49:13,397::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:49:13,397::evaluate::WARNING] Failed 17
+[2024-01-05 11:49:13,397::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:49:13,397::evaluate::WARNING] Failed 18
+[2024-01-05 11:49:13,397::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:49:13,397::evaluate::WARNING] Failed 19
+[2024-01-05 11:49:13,397::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:49:13,397::evaluate::WARNING] Failed 20
+[2024-01-05 11:49:13,397::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:49:13,397::evaluate::WARNING] Failed 21
+[2024-01-05 11:49:13,397::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:49:13,398::evaluate::WARNING] Failed 22
+[2024-01-05 11:49:13,398::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:49:13,398::evaluate::WARNING] Failed 23
+[2024-01-05 11:49:13,398::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:49:13,398::evaluate::WARNING] Failed 24
+[2024-01-05 11:49:13,398::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:49:13,398::evaluate::WARNING] Failed 25
+[2024-01-05 11:49:13,398::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:49:13,398::evaluate::WARNING] Failed 26
+[2024-01-05 11:49:13,398::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:49:13,398::evaluate::WARNING] Failed 27
+[2024-01-05 11:49:13,398::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:49:13,398::evaluate::WARNING] Failed 28
+[2024-01-05 11:49:13,399::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:49:13,399::evaluate::WARNING] Failed 29
+[2024-01-05 11:49:13,399::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:49:13,399::evaluate::WARNING] Failed 30
+[2024-01-05 11:49:13,399::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:49:13,399::evaluate::WARNING] Failed 31
+[2024-01-05 11:49:13,399::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:49:13,399::evaluate::WARNING] Failed 32
+[2024-01-05 11:49:13,399::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:49:13,399::evaluate::WARNING] Failed 33
+[2024-01-05 11:49:13,399::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:49:13,399::evaluate::WARNING] Failed 34
+[2024-01-05 11:49:13,399::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:49:13,400::evaluate::WARNING] Failed 35
+[2024-01-05 11:49:13,400::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:49:13,400::evaluate::WARNING] Failed 36
+[2024-01-05 11:49:13,400::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:49:13,400::evaluate::WARNING] Failed 37
+[2024-01-05 11:49:13,400::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:49:13,400::evaluate::WARNING] Failed 38
+[2024-01-05 11:49:13,400::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:49:13,400::evaluate::WARNING] Failed 39
+[2024-01-05 11:49:13,400::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:49:13,400::evaluate::WARNING] Failed 40
+[2024-01-05 11:49:13,401::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:49:13,401::evaluate::WARNING] Failed 41
+[2024-01-05 11:49:13,401::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:49:13,401::evaluate::WARNING] Failed 42
+[2024-01-05 11:49:13,401::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:49:13,401::evaluate::WARNING] Failed 43
+[2024-01-05 11:49:13,401::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:49:13,401::evaluate::WARNING] Failed 44
+[2024-01-05 11:49:13,401::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:49:13,401::evaluate::WARNING] Failed 45
+[2024-01-05 11:49:13,401::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:49:13,401::evaluate::WARNING] Failed 46
+[2024-01-05 11:49:13,401::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:49:13,402::evaluate::WARNING] Failed 47
+[2024-01-05 11:49:13,402::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:49:13,402::evaluate::WARNING] Failed 48
+[2024-01-05 11:49:13,402::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:49:13,402::evaluate::WARNING] Failed 49
+[2024-01-05 11:49:13,402::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:49:13,402::evaluate::WARNING] Failed 50
+[2024-01-05 11:49:13,402::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:49:13,402::evaluate::WARNING] Failed 51
+[2024-01-05 11:49:13,402::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:49:13,403::evaluate::WARNING] Failed 52
+[2024-01-05 11:49:13,403::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:49:13,403::evaluate::WARNING] Failed 53
+[2024-01-05 11:49:13,403::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:49:13,403::evaluate::WARNING] Failed 54
+[2024-01-05 11:49:13,403::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:49:13,403::evaluate::WARNING] Failed 55
+[2024-01-05 11:49:13,403::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:49:13,403::evaluate::WARNING] Failed 56
+[2024-01-05 11:49:13,403::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:49:13,404::evaluate::WARNING] Failed 57
+[2024-01-05 11:49:13,404::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:49:13,404::evaluate::WARNING] Failed 58
+[2024-01-05 11:49:13,404::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:49:13,404::evaluate::WARNING] Failed 59
+[2024-01-05 11:49:13,404::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:49:13,404::evaluate::WARNING] Failed 60
+[2024-01-05 11:49:13,404::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:49:13,404::evaluate::WARNING] Failed 61
+[2024-01-05 11:49:13,404::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:49:13,405::evaluate::WARNING] Failed 62
+[2024-01-05 11:49:13,405::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:49:13,405::evaluate::WARNING] Failed 63
+[2024-01-05 11:49:13,405::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:49:13,405::evaluate::WARNING] Failed 64
+[2024-01-05 11:49:13,405::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:49:13,405::evaluate::WARNING] Failed 65
+[2024-01-05 11:49:13,405::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:49:13,405::evaluate::WARNING] Failed 66
+[2024-01-05 11:49:13,405::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:49:13,406::evaluate::WARNING] Failed 67
+[2024-01-05 11:49:13,406::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:49:13,406::evaluate::WARNING] Failed 68
+[2024-01-05 11:49:13,406::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:49:13,406::evaluate::WARNING] Failed 69
+[2024-01-05 11:49:13,406::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:49:13,406::evaluate::WARNING] Failed 70
+[2024-01-05 11:49:13,406::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:49:13,406::evaluate::WARNING] Failed 71
+[2024-01-05 11:49:13,406::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:49:13,407::evaluate::WARNING] Failed 72
+[2024-01-05 11:49:13,407::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:49:13,407::evaluate::WARNING] Failed 73
+[2024-01-05 11:49:13,407::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:49:13,407::evaluate::WARNING] Failed 74
+[2024-01-05 11:49:13,407::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:49:13,407::evaluate::WARNING] Failed 75
+[2024-01-05 11:49:13,407::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:49:13,407::evaluate::WARNING] Failed 76
+[2024-01-05 11:49:13,408::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:49:13,408::evaluate::WARNING] Failed 77
+[2024-01-05 11:49:13,408::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:49:13,408::evaluate::WARNING] Failed 78
+[2024-01-05 11:49:13,408::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:49:13,408::evaluate::WARNING] Failed 79
+[2024-01-05 11:49:13,408::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:49:13,408::evaluate::WARNING] Failed 80
+[2024-01-05 11:49:13,408::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:49:13,409::evaluate::WARNING] Failed 81
+[2024-01-05 11:49:13,409::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:49:13,409::evaluate::WARNING] Failed 82
+[2024-01-05 11:49:13,409::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:49:13,409::evaluate::WARNING] Failed 83
+[2024-01-05 11:49:13,409::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:49:13,409::evaluate::WARNING] Failed 84
+[2024-01-05 11:49:13,409::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:49:13,409::evaluate::WARNING] Failed 85
+[2024-01-05 11:49:13,409::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:49:13,410::evaluate::WARNING] Failed 86
+[2024-01-05 11:49:13,410::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:49:13,410::evaluate::WARNING] Failed 87
+[2024-01-05 11:49:13,410::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:49:13,410::evaluate::WARNING] Failed 88
+[2024-01-05 11:49:13,410::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:49:13,410::evaluate::WARNING] Failed 89
+[2024-01-05 11:49:13,410::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:49:13,411::evaluate::WARNING] Failed 90
+[2024-01-05 11:49:13,411::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:49:13,411::evaluate::WARNING] Failed 91
+[2024-01-05 11:49:13,411::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:49:13,411::evaluate::WARNING] Failed 92
+[2024-01-05 11:49:13,411::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:49:13,411::evaluate::WARNING] Failed 93
+[2024-01-05 11:49:13,411::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:49:13,411::evaluate::WARNING] Failed 94
+[2024-01-05 11:49:13,411::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:49:13,412::evaluate::WARNING] Failed 95
+[2024-01-05 11:49:13,412::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:49:13,412::evaluate::WARNING] Failed 96
+[2024-01-05 11:49:13,412::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:49:13,412::evaluate::WARNING] Failed 97
+[2024-01-05 11:49:13,412::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:49:13,412::evaluate::WARNING] Failed 98
+[2024-01-05 11:49:13,412::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:49:13,413::evaluate::WARNING] Failed 99
+[2024-01-05 11:49:13,413::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:49:13,413::evaluate::WARNING] Failed 100
+[2024-01-05 11:49:13,413::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:49:13,413::evaluate::WARNING] Failed 101
+[2024-01-05 11:49:13,413::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:49:13,413::evaluate::WARNING] Failed 102
+[2024-01-05 11:49:13,413::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:49:13,414::evaluate::WARNING] Failed 103
+[2024-01-05 11:49:13,414::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:49:13,414::evaluate::WARNING] Failed 104
+[2024-01-05 11:49:13,414::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:49:13,414::evaluate::WARNING] Failed 105
+[2024-01-05 11:49:13,414::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:49:13,414::evaluate::WARNING] Failed 106
+[2024-01-05 11:49:13,414::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:49:13,414::evaluate::WARNING] Failed 107
+[2024-01-05 11:49:13,414::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:49:13,415::evaluate::WARNING] Failed 108
+[2024-01-05 11:49:13,415::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:49:13,415::evaluate::WARNING] Failed 109
+[2024-01-05 11:49:13,415::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:49:13,415::evaluate::WARNING] Failed 110
+[2024-01-05 11:49:13,415::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:49:13,415::evaluate::WARNING] Failed 111
+[2024-01-05 11:49:13,415::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:49:13,416::evaluate::INFO] Number of results: 0
+[2024-01-05 11:55:18,084::evaluate::INFO] Namespace(exp_name='sample_for_pdb_7nng.pdb_2024_01_04__20_19_57', protein_root='../evaluation/pdb_data', result_root='../outputs')
+[2024-01-05 11:55:18,084::evaluate::INFO] ../outputs/sample_for_pdb_7nng.pdb_2024_01_04__20_19_57/samples_all.pt
+[2024-01-05 11:55:18,665::evaluate::WARNING] Failed 0
+[2024-01-05 11:55:18,665::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:55:18,665::evaluate::WARNING] Failed 1
+[2024-01-05 11:55:18,665::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:55:18,665::evaluate::WARNING] Failed 2
+[2024-01-05 11:55:18,665::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:55:18,665::evaluate::WARNING] Failed 3
+[2024-01-05 11:55:18,665::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:55:18,665::evaluate::WARNING] Failed 4
+[2024-01-05 11:55:18,665::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:55:18,665::evaluate::WARNING] Failed 5
+[2024-01-05 11:55:18,665::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:55:18,666::evaluate::WARNING] Failed 6
+[2024-01-05 11:55:18,666::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:55:18,666::evaluate::WARNING] Failed 7
+[2024-01-05 11:55:18,666::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:55:18,666::evaluate::WARNING] Failed 8
+[2024-01-05 11:55:18,666::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:55:18,666::evaluate::WARNING] Failed 9
+[2024-01-05 11:55:18,666::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:55:18,666::evaluate::WARNING] Failed 10
+[2024-01-05 11:55:18,666::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:55:18,666::evaluate::WARNING] Failed 11
+[2024-01-05 11:55:18,666::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:55:18,666::evaluate::WARNING] Failed 12
+[2024-01-05 11:55:18,666::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:55:18,666::evaluate::WARNING] Failed 13
+[2024-01-05 11:55:18,666::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:55:18,666::evaluate::WARNING] Failed 14
+[2024-01-05 11:55:18,666::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:55:18,667::evaluate::WARNING] Failed 15
+[2024-01-05 11:55:18,667::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:55:18,667::evaluate::WARNING] Failed 16
+[2024-01-05 11:55:18,667::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:55:18,667::evaluate::WARNING] Failed 17
+[2024-01-05 11:55:18,667::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:55:18,667::evaluate::WARNING] Failed 18
+[2024-01-05 11:55:18,667::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:55:18,667::evaluate::WARNING] Failed 19
+[2024-01-05 11:55:18,667::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:55:18,667::evaluate::WARNING] Failed 20
+[2024-01-05 11:55:18,667::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:55:18,667::evaluate::WARNING] Failed 21
+[2024-01-05 11:55:18,667::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:55:18,668::evaluate::WARNING] Failed 22
+[2024-01-05 11:55:18,668::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:55:18,668::evaluate::WARNING] Failed 23
+[2024-01-05 11:55:18,668::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:55:18,668::evaluate::WARNING] Failed 24
+[2024-01-05 11:55:18,668::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:55:18,668::evaluate::WARNING] Failed 25
+[2024-01-05 11:55:18,668::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:55:18,668::evaluate::WARNING] Failed 26
+[2024-01-05 11:55:18,668::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:55:18,668::evaluate::WARNING] Failed 27
+[2024-01-05 11:55:18,668::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:55:18,668::evaluate::WARNING] Failed 28
+[2024-01-05 11:55:18,668::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:55:18,669::evaluate::WARNING] Failed 29
+[2024-01-05 11:55:18,669::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:55:18,669::evaluate::WARNING] Failed 30
+[2024-01-05 11:55:18,669::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:55:18,669::evaluate::WARNING] Failed 31
+[2024-01-05 11:55:18,669::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:55:18,669::evaluate::WARNING] Failed 32
+[2024-01-05 11:55:18,669::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:55:18,669::evaluate::WARNING] Failed 33
+[2024-01-05 11:55:18,669::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:55:18,669::evaluate::WARNING] Failed 34
+[2024-01-05 11:55:18,669::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:55:18,669::evaluate::WARNING] Failed 35
+[2024-01-05 11:55:18,669::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:55:18,670::evaluate::WARNING] Failed 36
+[2024-01-05 11:55:18,670::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:55:18,670::evaluate::WARNING] Failed 37
+[2024-01-05 11:55:18,670::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:55:18,670::evaluate::WARNING] Failed 38
+[2024-01-05 11:55:18,670::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:55:18,670::evaluate::WARNING] Failed 39
+[2024-01-05 11:55:18,670::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:55:18,670::evaluate::WARNING] Failed 40
+[2024-01-05 11:55:18,670::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:55:18,670::evaluate::WARNING] Failed 41
+[2024-01-05 11:55:18,670::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:55:18,671::evaluate::WARNING] Failed 42
+[2024-01-05 11:55:18,671::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:55:18,671::evaluate::WARNING] Failed 43
+[2024-01-05 11:55:18,671::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:55:18,671::evaluate::WARNING] Failed 44
+[2024-01-05 11:55:18,671::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:55:18,671::evaluate::WARNING] Failed 45
+[2024-01-05 11:55:18,671::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:55:18,671::evaluate::WARNING] Failed 46
+[2024-01-05 11:55:18,671::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:55:18,671::evaluate::WARNING] Failed 47
+[2024-01-05 11:55:18,671::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:55:18,672::evaluate::WARNING] Failed 48
+[2024-01-05 11:55:18,672::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:55:18,672::evaluate::WARNING] Failed 49
+[2024-01-05 11:55:18,672::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:55:18,672::evaluate::WARNING] Failed 50
+[2024-01-05 11:55:18,672::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:55:18,672::evaluate::WARNING] Failed 51
+[2024-01-05 11:55:18,672::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:55:18,672::evaluate::WARNING] Failed 52
+[2024-01-05 11:55:18,672::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:55:18,672::evaluate::WARNING] Failed 53
+[2024-01-05 11:55:18,673::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:55:18,673::evaluate::WARNING] Failed 54
+[2024-01-05 11:55:18,673::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:55:18,673::evaluate::WARNING] Failed 55
+[2024-01-05 11:55:18,673::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:55:18,673::evaluate::WARNING] Failed 56
+[2024-01-05 11:55:18,673::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:55:18,673::evaluate::WARNING] Failed 57
+[2024-01-05 11:55:18,673::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:55:18,673::evaluate::WARNING] Failed 58
+[2024-01-05 11:55:18,673::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:55:18,674::evaluate::WARNING] Failed 59
+[2024-01-05 11:55:18,674::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:55:18,674::evaluate::WARNING] Failed 60
+[2024-01-05 11:55:18,674::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:55:18,674::evaluate::WARNING] Failed 61
+[2024-01-05 11:55:18,674::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:55:18,674::evaluate::WARNING] Failed 62
+[2024-01-05 11:55:18,674::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:55:18,674::evaluate::WARNING] Failed 63
+[2024-01-05 11:55:18,674::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:55:18,675::evaluate::WARNING] Failed 64
+[2024-01-05 11:55:18,675::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:55:18,675::evaluate::WARNING] Failed 65
+[2024-01-05 11:55:18,675::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:55:18,675::evaluate::WARNING] Failed 66
+[2024-01-05 11:55:18,675::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:55:18,675::evaluate::WARNING] Failed 67
+[2024-01-05 11:55:18,675::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:55:18,675::evaluate::WARNING] Failed 68
+[2024-01-05 11:55:18,676::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:55:18,676::evaluate::WARNING] Failed 69
+[2024-01-05 11:55:18,676::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:55:18,676::evaluate::WARNING] Failed 70
+[2024-01-05 11:55:18,676::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:55:18,676::evaluate::WARNING] Failed 71
+[2024-01-05 11:55:18,676::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:55:18,676::evaluate::WARNING] Failed 72
+[2024-01-05 11:55:18,676::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:55:18,677::evaluate::WARNING] Failed 73
+[2024-01-05 11:55:18,677::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:55:18,677::evaluate::WARNING] Failed 74
+[2024-01-05 11:55:18,677::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:55:18,677::evaluate::WARNING] Failed 75
+[2024-01-05 11:55:18,677::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:55:18,677::evaluate::WARNING] Failed 76
+[2024-01-05 11:55:18,677::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:55:18,677::evaluate::WARNING] Failed 77
+[2024-01-05 11:55:18,677::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:55:18,678::evaluate::WARNING] Failed 78
+[2024-01-05 11:55:18,678::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:55:18,678::evaluate::WARNING] Failed 79
+[2024-01-05 11:55:18,678::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:55:18,678::evaluate::WARNING] Failed 80
+[2024-01-05 11:55:18,678::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:55:18,678::evaluate::WARNING] Failed 81
+[2024-01-05 11:55:18,678::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:55:18,678::evaluate::WARNING] Failed 82
+[2024-01-05 11:55:18,678::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:55:18,679::evaluate::WARNING] Failed 83
+[2024-01-05 11:55:18,679::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:55:18,679::evaluate::WARNING] Failed 84
+[2024-01-05 11:55:18,679::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:55:18,679::evaluate::WARNING] Failed 85
+[2024-01-05 11:55:18,679::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:55:18,679::evaluate::WARNING] Failed 86
+[2024-01-05 11:55:18,679::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:55:18,680::evaluate::WARNING] Failed 87
+[2024-01-05 11:55:18,680::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:55:18,680::evaluate::WARNING] Failed 88
+[2024-01-05 11:55:18,680::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:55:18,680::evaluate::WARNING] Failed 89
+[2024-01-05 11:55:18,680::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:55:18,680::evaluate::WARNING] Failed 90
+[2024-01-05 11:55:18,680::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:55:18,680::evaluate::WARNING] Failed 91
+[2024-01-05 11:55:18,681::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:55:18,681::evaluate::WARNING] Failed 92
+[2024-01-05 11:55:18,681::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:55:18,681::evaluate::WARNING] Failed 93
+[2024-01-05 11:55:18,681::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:55:18,681::evaluate::WARNING] Failed 94
+[2024-01-05 11:55:18,681::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:55:18,681::evaluate::WARNING] Failed 95
+[2024-01-05 11:55:18,681::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:55:18,682::evaluate::WARNING] Failed 96
+[2024-01-05 11:55:18,682::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:55:18,682::evaluate::WARNING] Failed 97
+[2024-01-05 11:55:18,682::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:55:18,682::evaluate::WARNING] Failed 98
+[2024-01-05 11:55:18,682::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:55:18,682::evaluate::WARNING] Failed 99
+[2024-01-05 11:55:18,682::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:55:18,683::evaluate::WARNING] Failed 100
+[2024-01-05 11:55:18,683::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:55:18,683::evaluate::WARNING] Failed 101
+[2024-01-05 11:55:18,683::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:55:18,683::evaluate::WARNING] Failed 102
+[2024-01-05 11:55:18,683::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:55:18,683::evaluate::WARNING] Failed 103
+[2024-01-05 11:55:18,683::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:55:18,683::evaluate::WARNING] Failed 104
+[2024-01-05 11:55:18,684::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:55:18,684::evaluate::WARNING] Failed 105
+[2024-01-05 11:55:18,684::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:55:18,684::evaluate::WARNING] Failed 106
+[2024-01-05 11:55:18,684::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:55:18,684::evaluate::WARNING] Failed 107
+[2024-01-05 11:55:18,684::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:55:18,684::evaluate::WARNING] Failed 108
+[2024-01-05 11:55:18,684::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:55:18,685::evaluate::WARNING] Failed 109
+[2024-01-05 11:55:18,685::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:55:18,685::evaluate::WARNING] Failed 110
+[2024-01-05 11:55:18,685::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:55:18,685::evaluate::WARNING] Failed 111
+[2024-01-05 11:55:18,685::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:55:18,685::evaluate::INFO] Number of results: 0
+[2024-01-05 11:56:17,884::evaluate::INFO] Namespace(exp_name='sample_for_pdb_7nng.pdb_2024_01_04__20_19_57', protein_root='../evaluation/pdb_data', result_root='../outputs')
+[2024-01-05 11:56:17,884::evaluate::INFO] ../outputs/sample_for_pdb_7nng.pdb_2024_01_04__20_19_57/samples_all.pt
+[2024-01-05 11:56:18,463::evaluate::WARNING] Failed 0
+[2024-01-05 11:56:18,463::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:56:18,463::evaluate::WARNING] Failed 1
+[2024-01-05 11:56:18,463::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:56:18,463::evaluate::WARNING] Failed 2
+[2024-01-05 11:56:18,463::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:56:18,463::evaluate::WARNING] Failed 3
+[2024-01-05 11:56:18,463::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:56:18,463::evaluate::WARNING] Failed 4
+[2024-01-05 11:56:18,463::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:56:18,463::evaluate::WARNING] Failed 5
+[2024-01-05 11:56:18,463::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:56:18,463::evaluate::WARNING] Failed 6
+[2024-01-05 11:56:18,463::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:56:18,464::evaluate::WARNING] Failed 7
+[2024-01-05 11:56:18,464::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:56:18,464::evaluate::WARNING] Failed 8
+[2024-01-05 11:56:18,464::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:56:18,464::evaluate::WARNING] Failed 9
+[2024-01-05 11:56:18,464::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:56:18,464::evaluate::WARNING] Failed 10
+[2024-01-05 11:56:18,464::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:56:18,464::evaluate::WARNING] Failed 11
+[2024-01-05 11:56:18,464::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:56:18,464::evaluate::WARNING] Failed 12
+[2024-01-05 11:56:18,464::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:56:18,464::evaluate::WARNING] Failed 13
+[2024-01-05 11:56:18,464::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:56:18,464::evaluate::WARNING] Failed 14
+[2024-01-05 11:56:18,464::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:56:18,465::evaluate::WARNING] Failed 15
+[2024-01-05 11:56:18,465::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:56:18,465::evaluate::WARNING] Failed 16
+[2024-01-05 11:56:18,465::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:56:18,465::evaluate::WARNING] Failed 17
+[2024-01-05 11:56:18,465::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:56:18,465::evaluate::WARNING] Failed 18
+[2024-01-05 11:56:18,465::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:56:18,465::evaluate::WARNING] Failed 19
+[2024-01-05 11:56:18,465::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:56:18,465::evaluate::WARNING] Failed 20
+[2024-01-05 11:56:18,465::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:56:18,465::evaluate::WARNING] Failed 21
+[2024-01-05 11:56:18,465::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:56:18,465::evaluate::WARNING] Failed 22
+[2024-01-05 11:56:18,466::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:56:18,466::evaluate::WARNING] Failed 23
+[2024-01-05 11:56:18,466::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:56:18,466::evaluate::WARNING] Failed 24
+[2024-01-05 11:56:18,466::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:56:18,466::evaluate::WARNING] Failed 25
+[2024-01-05 11:56:18,466::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:56:18,466::evaluate::WARNING] Failed 26
+[2024-01-05 11:56:18,466::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:56:18,466::evaluate::WARNING] Failed 27
+[2024-01-05 11:56:18,466::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:56:18,466::evaluate::WARNING] Failed 28
+[2024-01-05 11:56:18,466::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:56:18,467::evaluate::WARNING] Failed 29
+[2024-01-05 11:56:18,467::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:56:18,467::evaluate::WARNING] Failed 30
+[2024-01-05 11:56:18,467::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:56:18,467::evaluate::WARNING] Failed 31
+[2024-01-05 11:56:18,467::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:56:18,467::evaluate::WARNING] Failed 32
+[2024-01-05 11:56:18,467::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:56:18,467::evaluate::WARNING] Failed 33
+[2024-01-05 11:56:18,467::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:56:18,467::evaluate::WARNING] Failed 34
+[2024-01-05 11:56:18,467::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:56:18,467::evaluate::WARNING] Failed 35
+[2024-01-05 11:56:18,467::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:56:18,468::evaluate::WARNING] Failed 36
+[2024-01-05 11:56:18,468::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:56:18,468::evaluate::WARNING] Failed 37
+[2024-01-05 11:56:18,468::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:56:18,468::evaluate::WARNING] Failed 38
+[2024-01-05 11:56:18,468::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:56:18,468::evaluate::WARNING] Failed 39
+[2024-01-05 11:56:18,468::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:56:18,468::evaluate::WARNING] Failed 40
+[2024-01-05 11:56:18,468::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:56:18,469::evaluate::WARNING] Failed 41
+[2024-01-05 11:56:18,469::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:56:18,469::evaluate::WARNING] Failed 42
+[2024-01-05 11:56:18,469::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:56:18,469::evaluate::WARNING] Failed 43
+[2024-01-05 11:56:18,469::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:56:18,469::evaluate::WARNING] Failed 44
+[2024-01-05 11:56:18,469::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:56:18,469::evaluate::WARNING] Failed 45
+[2024-01-05 11:56:18,469::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:56:18,469::evaluate::WARNING] Failed 46
+[2024-01-05 11:56:18,469::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:56:18,469::evaluate::WARNING] Failed 47
+[2024-01-05 11:56:18,470::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:56:18,470::evaluate::WARNING] Failed 48
+[2024-01-05 11:56:18,470::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:56:18,470::evaluate::WARNING] Failed 49
+[2024-01-05 11:56:18,470::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:56:18,470::evaluate::WARNING] Failed 50
+[2024-01-05 11:56:18,470::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:56:18,470::evaluate::WARNING] Failed 51
+[2024-01-05 11:56:18,470::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:56:18,470::evaluate::WARNING] Failed 52
+[2024-01-05 11:56:18,470::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:56:18,471::evaluate::WARNING] Failed 53
+[2024-01-05 11:56:18,471::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:56:18,471::evaluate::WARNING] Failed 54
+[2024-01-05 11:56:18,471::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:56:18,471::evaluate::WARNING] Failed 55
+[2024-01-05 11:56:18,471::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:56:18,471::evaluate::WARNING] Failed 56
+[2024-01-05 11:56:18,471::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:56:18,471::evaluate::WARNING] Failed 57
+[2024-01-05 11:56:18,471::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:56:18,472::evaluate::WARNING] Failed 58
+[2024-01-05 11:56:18,472::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:56:18,472::evaluate::WARNING] Failed 59
+[2024-01-05 11:56:18,472::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:56:18,472::evaluate::WARNING] Failed 60
+[2024-01-05 11:56:18,472::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:56:18,472::evaluate::WARNING] Failed 61
+[2024-01-05 11:56:18,472::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:56:18,472::evaluate::WARNING] Failed 62
+[2024-01-05 11:56:18,472::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:56:18,473::evaluate::WARNING] Failed 63
+[2024-01-05 11:56:18,473::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:56:18,473::evaluate::WARNING] Failed 64
+[2024-01-05 11:56:18,473::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:56:18,473::evaluate::WARNING] Failed 65
+[2024-01-05 11:56:18,473::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:56:18,473::evaluate::WARNING] Failed 66
+[2024-01-05 11:56:18,473::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:56:18,473::evaluate::WARNING] Failed 67
+[2024-01-05 11:56:18,473::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:56:18,474::evaluate::WARNING] Failed 68
+[2024-01-05 11:56:18,474::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:56:18,474::evaluate::WARNING] Failed 69
+[2024-01-05 11:56:18,474::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:56:18,474::evaluate::WARNING] Failed 70
+[2024-01-05 11:56:18,474::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:56:18,474::evaluate::WARNING] Failed 71
+[2024-01-05 11:56:18,474::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:56:18,474::evaluate::WARNING] Failed 72
+[2024-01-05 11:56:18,474::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:56:18,475::evaluate::WARNING] Failed 73
+[2024-01-05 11:56:18,475::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:56:18,475::evaluate::WARNING] Failed 74
+[2024-01-05 11:56:18,475::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:56:18,475::evaluate::WARNING] Failed 75
+[2024-01-05 11:56:18,475::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:56:18,475::evaluate::WARNING] Failed 76
+[2024-01-05 11:56:18,475::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:56:18,476::evaluate::WARNING] Failed 77
+[2024-01-05 11:56:18,476::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:56:18,476::evaluate::WARNING] Failed 78
+[2024-01-05 11:56:18,476::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:56:18,476::evaluate::WARNING] Failed 79
+[2024-01-05 11:56:18,476::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:56:18,476::evaluate::WARNING] Failed 80
+[2024-01-05 11:56:18,476::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:56:18,476::evaluate::WARNING] Failed 81
+[2024-01-05 11:56:18,476::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:56:18,477::evaluate::WARNING] Failed 82
+[2024-01-05 11:56:18,477::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:56:18,477::evaluate::WARNING] Failed 83
+[2024-01-05 11:56:18,477::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:56:18,477::evaluate::WARNING] Failed 84
+[2024-01-05 11:56:18,477::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:56:18,477::evaluate::WARNING] Failed 85
+[2024-01-05 11:56:18,477::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:56:18,478::evaluate::WARNING] Failed 86
+[2024-01-05 11:56:18,478::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:56:18,478::evaluate::WARNING] Failed 87
+[2024-01-05 11:56:18,478::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:56:18,478::evaluate::WARNING] Failed 88
+[2024-01-05 11:56:18,478::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:56:18,478::evaluate::WARNING] Failed 89
+[2024-01-05 11:56:18,478::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:56:18,478::evaluate::WARNING] Failed 90
+[2024-01-05 11:56:18,478::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:56:18,479::evaluate::WARNING] Failed 91
+[2024-01-05 11:56:18,479::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:56:18,479::evaluate::WARNING] Failed 92
+[2024-01-05 11:56:18,479::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:56:18,479::evaluate::WARNING] Failed 93
+[2024-01-05 11:56:18,479::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:56:18,479::evaluate::WARNING] Failed 94
+[2024-01-05 11:56:18,479::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:56:18,480::evaluate::WARNING] Failed 95
+[2024-01-05 11:56:18,480::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:56:18,480::evaluate::WARNING] Failed 96
+[2024-01-05 11:56:18,480::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:56:18,480::evaluate::WARNING] Failed 97
+[2024-01-05 11:56:18,480::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:56:18,480::evaluate::WARNING] Failed 98
+[2024-01-05 11:56:18,480::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:56:18,481::evaluate::WARNING] Failed 99
+[2024-01-05 11:56:18,481::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:56:18,481::evaluate::WARNING] Failed 100
+[2024-01-05 11:56:18,481::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:56:18,481::evaluate::WARNING] Failed 101
+[2024-01-05 11:56:18,481::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:56:18,481::evaluate::WARNING] Failed 102
+[2024-01-05 11:56:18,481::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:56:18,481::evaluate::WARNING] Failed 103
+[2024-01-05 11:56:18,481::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:56:18,482::evaluate::WARNING] Failed 104
+[2024-01-05 11:56:18,482::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:56:18,482::evaluate::WARNING] Failed 105
+[2024-01-05 11:56:18,482::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:56:18,482::evaluate::WARNING] Failed 106
+[2024-01-05 11:56:18,482::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:56:18,482::evaluate::WARNING] Failed 107
+[2024-01-05 11:56:18,482::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:56:18,483::evaluate::WARNING] Failed 108
+[2024-01-05 11:56:18,483::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:56:18,483::evaluate::WARNING] Failed 109
+[2024-01-05 11:56:18,483::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:56:18,483::evaluate::WARNING] Failed 110
+[2024-01-05 11:56:18,483::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:56:18,483::evaluate::WARNING] Failed 111
+[2024-01-05 11:56:18,483::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-05 11:56:18,483::evaluate::INFO] Number of results: 0
+[2024-01-10 13:34:07,520::evaluate::INFO] Namespace(exp_name='sample_for_pdb_7nng.pdb_2024_01_04__20_19_57', protein_root='../evaluation/pdb_data', result_root='../outputs')
+[2024-01-10 13:34:07,520::evaluate::INFO] ../outputs/sample_for_pdb_7nng.pdb_2024_01_04__20_19_57/samples_all.pt
+[2024-01-10 13:34:08,974::evaluate::WARNING] Failed 0
+[2024-01-10 13:34:08,974::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:34:08,975::evaluate::WARNING] Failed 1
+[2024-01-10 13:34:08,975::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:34:08,975::evaluate::WARNING] Failed 2
+[2024-01-10 13:34:08,975::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:34:08,975::evaluate::WARNING] Failed 3
+[2024-01-10 13:34:08,975::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:34:08,975::evaluate::WARNING] Failed 4
+[2024-01-10 13:34:08,975::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:34:08,975::evaluate::WARNING] Failed 5
+[2024-01-10 13:34:08,975::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:34:08,975::evaluate::WARNING] Failed 6
+[2024-01-10 13:34:08,975::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:34:08,975::evaluate::WARNING] Failed 7
+[2024-01-10 13:34:08,975::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:34:08,975::evaluate::WARNING] Failed 8
+[2024-01-10 13:34:08,975::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:34:08,975::evaluate::WARNING] Failed 9
+[2024-01-10 13:34:08,975::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:34:08,976::evaluate::WARNING] Failed 10
+[2024-01-10 13:34:08,976::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:34:08,976::evaluate::WARNING] Failed 11
+[2024-01-10 13:34:08,976::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:34:08,976::evaluate::WARNING] Failed 12
+[2024-01-10 13:34:08,976::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:34:08,976::evaluate::WARNING] Failed 13
+[2024-01-10 13:34:08,976::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:34:08,976::evaluate::WARNING] Failed 14
+[2024-01-10 13:34:08,976::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:34:08,976::evaluate::WARNING] Failed 15
+[2024-01-10 13:34:08,976::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:34:08,976::evaluate::WARNING] Failed 16
+[2024-01-10 13:34:08,976::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:34:08,977::evaluate::WARNING] Failed 17
+[2024-01-10 13:34:08,977::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:34:08,977::evaluate::WARNING] Failed 18
+[2024-01-10 13:34:08,977::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:34:08,977::evaluate::WARNING] Failed 19
+[2024-01-10 13:34:08,977::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:34:08,977::evaluate::WARNING] Failed 20
+[2024-01-10 13:34:08,977::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:34:08,977::evaluate::WARNING] Failed 21
+[2024-01-10 13:34:08,977::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:34:08,977::evaluate::WARNING] Failed 22
+[2024-01-10 13:34:08,977::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:34:08,977::evaluate::WARNING] Failed 23
+[2024-01-10 13:34:08,977::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:34:08,978::evaluate::WARNING] Failed 24
+[2024-01-10 13:34:08,978::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:34:08,978::evaluate::WARNING] Failed 25
+[2024-01-10 13:34:08,978::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:34:08,978::evaluate::WARNING] Failed 26
+[2024-01-10 13:34:08,978::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:34:08,978::evaluate::WARNING] Failed 27
+[2024-01-10 13:34:08,978::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:34:08,978::evaluate::WARNING] Failed 28
+[2024-01-10 13:34:08,978::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:34:08,978::evaluate::WARNING] Failed 29
+[2024-01-10 13:34:08,978::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:34:08,978::evaluate::WARNING] Failed 30
+[2024-01-10 13:34:08,979::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:34:08,979::evaluate::WARNING] Failed 31
+[2024-01-10 13:34:08,979::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:34:08,979::evaluate::WARNING] Failed 32
+[2024-01-10 13:34:08,979::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:34:08,979::evaluate::WARNING] Failed 33
+[2024-01-10 13:34:08,979::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:34:08,979::evaluate::WARNING] Failed 34
+[2024-01-10 13:34:08,979::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:34:08,979::evaluate::WARNING] Failed 35
+[2024-01-10 13:34:08,979::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:34:08,979::evaluate::WARNING] Failed 36
+[2024-01-10 13:34:08,979::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:34:08,980::evaluate::WARNING] Failed 37
+[2024-01-10 13:34:08,980::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:34:08,980::evaluate::WARNING] Failed 38
+[2024-01-10 13:34:08,980::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:34:08,980::evaluate::WARNING] Failed 39
+[2024-01-10 13:34:08,980::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:34:08,980::evaluate::WARNING] Failed 40
+[2024-01-10 13:34:08,980::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:34:08,980::evaluate::WARNING] Failed 41
+[2024-01-10 13:34:08,980::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:34:08,981::evaluate::WARNING] Failed 42
+[2024-01-10 13:34:08,981::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:34:08,981::evaluate::WARNING] Failed 43
+[2024-01-10 13:34:08,981::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:34:08,981::evaluate::WARNING] Failed 44
+[2024-01-10 13:34:08,981::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:34:08,981::evaluate::WARNING] Failed 45
+[2024-01-10 13:34:08,981::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:34:08,981::evaluate::WARNING] Failed 46
+[2024-01-10 13:34:08,981::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:34:08,981::evaluate::WARNING] Failed 47
+[2024-01-10 13:34:08,981::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:34:08,982::evaluate::WARNING] Failed 48
+[2024-01-10 13:34:08,982::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:34:08,982::evaluate::WARNING] Failed 49
+[2024-01-10 13:34:08,982::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:34:08,982::evaluate::WARNING] Failed 50
+[2024-01-10 13:34:08,982::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:34:08,982::evaluate::WARNING] Failed 51
+[2024-01-10 13:34:08,982::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:34:08,982::evaluate::WARNING] Failed 52
+[2024-01-10 13:34:08,982::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:34:08,983::evaluate::WARNING] Failed 53
+[2024-01-10 13:34:08,983::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:34:08,983::evaluate::WARNING] Failed 54
+[2024-01-10 13:34:08,983::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:34:08,983::evaluate::WARNING] Failed 55
+[2024-01-10 13:34:08,983::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:34:08,983::evaluate::WARNING] Failed 56
+[2024-01-10 13:34:08,983::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:34:08,983::evaluate::WARNING] Failed 57
+[2024-01-10 13:34:08,983::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:34:08,984::evaluate::WARNING] Failed 58
+[2024-01-10 13:34:08,984::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:34:08,984::evaluate::WARNING] Failed 59
+[2024-01-10 13:34:08,984::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:34:08,984::evaluate::WARNING] Failed 60
+[2024-01-10 13:34:08,984::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:34:08,984::evaluate::WARNING] Failed 61
+[2024-01-10 13:34:08,984::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:34:08,984::evaluate::WARNING] Failed 62
+[2024-01-10 13:34:08,984::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:34:08,985::evaluate::WARNING] Failed 63
+[2024-01-10 13:34:08,985::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:34:08,985::evaluate::WARNING] Failed 64
+[2024-01-10 13:34:08,985::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:34:08,985::evaluate::WARNING] Failed 65
+[2024-01-10 13:34:08,985::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:34:08,985::evaluate::WARNING] Failed 66
+[2024-01-10 13:34:08,985::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:34:08,985::evaluate::WARNING] Failed 67
+[2024-01-10 13:34:08,985::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:34:08,986::evaluate::WARNING] Failed 68
+[2024-01-10 13:34:08,986::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:34:08,986::evaluate::WARNING] Failed 69
+[2024-01-10 13:34:08,986::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:34:08,986::evaluate::WARNING] Failed 70
+[2024-01-10 13:34:08,986::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:34:08,986::evaluate::WARNING] Failed 71
+[2024-01-10 13:34:08,986::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:34:08,987::evaluate::WARNING] Failed 72
+[2024-01-10 13:34:08,987::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:34:08,987::evaluate::WARNING] Failed 73
+[2024-01-10 13:34:08,987::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:34:08,987::evaluate::WARNING] Failed 74
+[2024-01-10 13:34:08,987::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:34:08,987::evaluate::WARNING] Failed 75
+[2024-01-10 13:34:08,987::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:34:08,987::evaluate::WARNING] Failed 76
+[2024-01-10 13:34:08,987::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:34:08,988::evaluate::WARNING] Failed 77
+[2024-01-10 13:34:08,988::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:34:08,988::evaluate::WARNING] Failed 78
+[2024-01-10 13:34:08,988::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:34:08,988::evaluate::WARNING] Failed 79
+[2024-01-10 13:34:08,988::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:34:08,988::evaluate::WARNING] Failed 80
+[2024-01-10 13:34:08,988::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:34:08,988::evaluate::WARNING] Failed 81
+[2024-01-10 13:34:08,988::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:34:08,989::evaluate::WARNING] Failed 82
+[2024-01-10 13:34:08,989::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:34:08,989::evaluate::WARNING] Failed 83
+[2024-01-10 13:34:08,989::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:34:08,989::evaluate::WARNING] Failed 84
+[2024-01-10 13:34:08,989::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:34:08,989::evaluate::WARNING] Failed 85
+[2024-01-10 13:34:08,989::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:34:08,990::evaluate::WARNING] Failed 86
+[2024-01-10 13:34:08,990::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:34:08,990::evaluate::WARNING] Failed 87
+[2024-01-10 13:34:08,990::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:34:08,990::evaluate::WARNING] Failed 88
+[2024-01-10 13:34:08,990::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:34:08,990::evaluate::WARNING] Failed 89
+[2024-01-10 13:34:08,990::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:34:08,991::evaluate::WARNING] Failed 90
+[2024-01-10 13:34:08,991::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:34:08,991::evaluate::WARNING] Failed 91
+[2024-01-10 13:34:08,991::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:34:08,991::evaluate::WARNING] Failed 92
+[2024-01-10 13:34:08,991::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:34:08,991::evaluate::WARNING] Failed 93
+[2024-01-10 13:34:08,991::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:34:08,991::evaluate::WARNING] Failed 94
+[2024-01-10 13:34:08,991::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:34:08,992::evaluate::WARNING] Failed 95
+[2024-01-10 13:34:08,992::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:34:08,992::evaluate::WARNING] Failed 96
+[2024-01-10 13:34:08,992::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:34:08,992::evaluate::WARNING] Failed 97
+[2024-01-10 13:34:08,992::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:34:08,992::evaluate::WARNING] Failed 98
+[2024-01-10 13:34:08,992::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:34:08,993::evaluate::WARNING] Failed 99
+[2024-01-10 13:34:08,993::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:34:08,993::evaluate::WARNING] Failed 100
+[2024-01-10 13:34:08,993::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:34:08,993::evaluate::WARNING] Failed 101
+[2024-01-10 13:34:08,993::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:34:08,993::evaluate::WARNING] Failed 102
+[2024-01-10 13:34:08,993::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:34:08,994::evaluate::WARNING] Failed 103
+[2024-01-10 13:34:08,994::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:34:08,994::evaluate::WARNING] Failed 104
+[2024-01-10 13:34:08,994::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:34:08,994::evaluate::WARNING] Failed 105
+[2024-01-10 13:34:08,994::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:34:08,994::evaluate::WARNING] Failed 106
+[2024-01-10 13:34:08,994::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:34:08,995::evaluate::WARNING] Failed 107
+[2024-01-10 13:34:08,995::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:34:08,995::evaluate::WARNING] Failed 108
+[2024-01-10 13:34:08,995::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:34:08,995::evaluate::WARNING] Failed 109
+[2024-01-10 13:34:08,995::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:34:08,995::evaluate::WARNING] Failed 110
+[2024-01-10 13:34:08,995::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:34:08,996::evaluate::WARNING] Failed 111
+[2024-01-10 13:34:08,996::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:34:08,996::evaluate::INFO] Number of results: 0
+[2024-01-10 13:59:17,580::evaluate::INFO] Namespace(exp_name='sample_for_pdb_7nng.pdb_2024_01_04__20_19_57', protein_root='../evaluation/pdb_data', result_root='../outputs')
+[2024-01-10 13:59:17,580::evaluate::INFO] ../outputs/sample_for_pdb_7nng.pdb_2024_01_04__20_19_57/samples_all.pt
+[2024-01-10 13:59:18,836::evaluate::WARNING] Failed 0
+[2024-01-10 13:59:18,836::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:59:18,836::evaluate::WARNING] Failed 1
+[2024-01-10 13:59:18,836::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:59:18,837::evaluate::WARNING] Failed 2
+[2024-01-10 13:59:18,837::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:59:18,837::evaluate::WARNING] Failed 3
+[2024-01-10 13:59:18,837::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:59:18,837::evaluate::WARNING] Failed 4
+[2024-01-10 13:59:18,837::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:59:18,837::evaluate::WARNING] Failed 5
+[2024-01-10 13:59:18,837::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:59:18,837::evaluate::WARNING] Failed 6
+[2024-01-10 13:59:18,837::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:59:18,837::evaluate::WARNING] Failed 7
+[2024-01-10 13:59:18,837::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:59:18,837::evaluate::WARNING] Failed 8
+[2024-01-10 13:59:18,837::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:59:18,837::evaluate::WARNING] Failed 9
+[2024-01-10 13:59:18,837::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:59:18,837::evaluate::WARNING] Failed 10
+[2024-01-10 13:59:18,838::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:59:18,838::evaluate::WARNING] Failed 11
+[2024-01-10 13:59:18,838::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:59:18,838::evaluate::WARNING] Failed 12
+[2024-01-10 13:59:18,838::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:59:18,838::evaluate::WARNING] Failed 13
+[2024-01-10 13:59:18,838::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:59:18,838::evaluate::WARNING] Failed 14
+[2024-01-10 13:59:18,838::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:59:18,838::evaluate::WARNING] Failed 15
+[2024-01-10 13:59:18,838::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:59:18,838::evaluate::WARNING] Failed 16
+[2024-01-10 13:59:18,838::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:59:18,838::evaluate::WARNING] Failed 17
+[2024-01-10 13:59:18,838::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:59:18,839::evaluate::WARNING] Failed 18
+[2024-01-10 13:59:18,839::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:59:18,839::evaluate::WARNING] Failed 19
+[2024-01-10 13:59:18,839::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:59:18,839::evaluate::WARNING] Failed 20
+[2024-01-10 13:59:18,839::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:59:18,839::evaluate::WARNING] Failed 21
+[2024-01-10 13:59:18,839::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:59:18,839::evaluate::WARNING] Failed 22
+[2024-01-10 13:59:18,839::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:59:18,839::evaluate::WARNING] Failed 23
+[2024-01-10 13:59:18,839::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:59:18,839::evaluate::WARNING] Failed 24
+[2024-01-10 13:59:18,840::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:59:18,840::evaluate::WARNING] Failed 25
+[2024-01-10 13:59:18,840::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:59:18,840::evaluate::WARNING] Failed 26
+[2024-01-10 13:59:18,840::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:59:18,840::evaluate::WARNING] Failed 27
+[2024-01-10 13:59:18,840::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:59:18,840::evaluate::WARNING] Failed 28
+[2024-01-10 13:59:18,840::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:59:18,840::evaluate::WARNING] Failed 29
+[2024-01-10 13:59:18,840::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:59:18,840::evaluate::WARNING] Failed 30
+[2024-01-10 13:59:18,840::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:59:18,841::evaluate::WARNING] Failed 31
+[2024-01-10 13:59:18,841::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:59:18,841::evaluate::WARNING] Failed 32
+[2024-01-10 13:59:18,841::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:59:18,841::evaluate::WARNING] Failed 33
+[2024-01-10 13:59:18,841::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:59:18,841::evaluate::WARNING] Failed 34
+[2024-01-10 13:59:18,841::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:59:18,841::evaluate::WARNING] Failed 35
+[2024-01-10 13:59:18,841::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:59:18,841::evaluate::WARNING] Failed 36
+[2024-01-10 13:59:18,841::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:59:18,842::evaluate::WARNING] Failed 37
+[2024-01-10 13:59:18,842::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:59:18,842::evaluate::WARNING] Failed 38
+[2024-01-10 13:59:18,842::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:59:18,842::evaluate::WARNING] Failed 39
+[2024-01-10 13:59:18,842::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:59:18,842::evaluate::WARNING] Failed 40
+[2024-01-10 13:59:18,842::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:59:18,842::evaluate::WARNING] Failed 41
+[2024-01-10 13:59:18,842::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:59:18,843::evaluate::WARNING] Failed 42
+[2024-01-10 13:59:18,843::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:59:18,843::evaluate::WARNING] Failed 43
+[2024-01-10 13:59:18,843::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:59:18,843::evaluate::WARNING] Failed 44
+[2024-01-10 13:59:18,843::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:59:18,843::evaluate::WARNING] Failed 45
+[2024-01-10 13:59:18,843::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:59:18,843::evaluate::WARNING] Failed 46
+[2024-01-10 13:59:18,843::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:59:18,843::evaluate::WARNING] Failed 47
+[2024-01-10 13:59:18,843::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:59:18,844::evaluate::WARNING] Failed 48
+[2024-01-10 13:59:18,844::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:59:18,844::evaluate::WARNING] Failed 49
+[2024-01-10 13:59:18,844::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:59:18,844::evaluate::WARNING] Failed 50
+[2024-01-10 13:59:18,844::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:59:18,844::evaluate::WARNING] Failed 51
+[2024-01-10 13:59:18,844::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:59:18,845::evaluate::WARNING] Failed 52
+[2024-01-10 13:59:18,845::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:59:18,845::evaluate::WARNING] Failed 53
+[2024-01-10 13:59:18,845::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:59:18,845::evaluate::WARNING] Failed 54
+[2024-01-10 13:59:18,845::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:59:18,845::evaluate::WARNING] Failed 55
+[2024-01-10 13:59:18,845::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:59:18,845::evaluate::WARNING] Failed 56
+[2024-01-10 13:59:18,845::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:59:18,846::evaluate::WARNING] Failed 57
+[2024-01-10 13:59:18,846::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:59:18,846::evaluate::WARNING] Failed 58
+[2024-01-10 13:59:18,846::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:59:18,846::evaluate::WARNING] Failed 59
+[2024-01-10 13:59:18,846::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:59:18,846::evaluate::WARNING] Failed 60
+[2024-01-10 13:59:18,846::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:59:18,846::evaluate::WARNING] Failed 61
+[2024-01-10 13:59:18,846::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:59:18,847::evaluate::WARNING] Failed 62
+[2024-01-10 13:59:18,847::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:59:18,847::evaluate::WARNING] Failed 63
+[2024-01-10 13:59:18,847::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:59:18,847::evaluate::WARNING] Failed 64
+[2024-01-10 13:59:18,847::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:59:18,847::evaluate::WARNING] Failed 65
+[2024-01-10 13:59:18,847::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:59:18,847::evaluate::WARNING] Failed 66
+[2024-01-10 13:59:18,847::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:59:18,848::evaluate::WARNING] Failed 67
+[2024-01-10 13:59:18,848::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:59:18,848::evaluate::WARNING] Failed 68
+[2024-01-10 13:59:18,848::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:59:18,848::evaluate::WARNING] Failed 69
+[2024-01-10 13:59:18,848::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:59:18,848::evaluate::WARNING] Failed 70
+[2024-01-10 13:59:18,848::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:59:18,848::evaluate::WARNING] Failed 71
+[2024-01-10 13:59:18,849::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:59:18,849::evaluate::WARNING] Failed 72
+[2024-01-10 13:59:18,849::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:59:18,849::evaluate::WARNING] Failed 73
+[2024-01-10 13:59:18,849::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:59:18,849::evaluate::WARNING] Failed 74
+[2024-01-10 13:59:18,849::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:59:18,849::evaluate::WARNING] Failed 75
+[2024-01-10 13:59:18,849::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:59:18,850::evaluate::WARNING] Failed 76
+[2024-01-10 13:59:18,850::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:59:18,850::evaluate::WARNING] Failed 77
+[2024-01-10 13:59:18,850::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:59:18,850::evaluate::WARNING] Failed 78
+[2024-01-10 13:59:18,850::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:59:18,850::evaluate::WARNING] Failed 79
+[2024-01-10 13:59:18,850::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:59:18,850::evaluate::WARNING] Failed 80
+[2024-01-10 13:59:18,850::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:59:18,851::evaluate::WARNING] Failed 81
+[2024-01-10 13:59:18,851::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:59:18,851::evaluate::WARNING] Failed 82
+[2024-01-10 13:59:18,851::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:59:18,851::evaluate::WARNING] Failed 83
+[2024-01-10 13:59:18,851::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:59:18,851::evaluate::WARNING] Failed 84
+[2024-01-10 13:59:18,851::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:59:18,852::evaluate::WARNING] Failed 85
+[2024-01-10 13:59:18,852::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:59:18,852::evaluate::WARNING] Failed 86
+[2024-01-10 13:59:18,852::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:59:18,852::evaluate::WARNING] Failed 87
+[2024-01-10 13:59:18,852::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:59:18,852::evaluate::WARNING] Failed 88
+[2024-01-10 13:59:18,852::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:59:18,853::evaluate::WARNING] Failed 89
+[2024-01-10 13:59:18,853::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:59:18,853::evaluate::WARNING] Failed 90
+[2024-01-10 13:59:18,853::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:59:18,853::evaluate::WARNING] Failed 91
+[2024-01-10 13:59:18,853::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:59:18,853::evaluate::WARNING] Failed 92
+[2024-01-10 13:59:18,853::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:59:18,853::evaluate::WARNING] Failed 93
+[2024-01-10 13:59:18,853::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:59:18,854::evaluate::WARNING] Failed 94
+[2024-01-10 13:59:18,854::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:59:18,854::evaluate::WARNING] Failed 95
+[2024-01-10 13:59:18,854::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:59:18,854::evaluate::WARNING] Failed 96
+[2024-01-10 13:59:18,854::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:59:18,854::evaluate::WARNING] Failed 97
+[2024-01-10 13:59:18,854::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:59:18,855::evaluate::WARNING] Failed 98
+[2024-01-10 13:59:18,855::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:59:18,855::evaluate::WARNING] Failed 99
+[2024-01-10 13:59:18,855::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:59:18,855::evaluate::WARNING] Failed 100
+[2024-01-10 13:59:18,855::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:59:18,855::evaluate::WARNING] Failed 101
+[2024-01-10 13:59:18,855::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:59:18,856::evaluate::WARNING] Failed 102
+[2024-01-10 13:59:18,856::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:59:18,856::evaluate::WARNING] Failed 103
+[2024-01-10 13:59:18,856::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:59:18,856::evaluate::WARNING] Failed 104
+[2024-01-10 13:59:18,856::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:59:18,856::evaluate::WARNING] Failed 105
+[2024-01-10 13:59:18,856::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:59:18,856::evaluate::WARNING] Failed 106
+[2024-01-10 13:59:18,857::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:59:18,857::evaluate::WARNING] Failed 107
+[2024-01-10 13:59:18,857::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:59:18,857::evaluate::WARNING] Failed 108
+[2024-01-10 13:59:18,857::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:59:18,857::evaluate::WARNING] Failed 109
+[2024-01-10 13:59:18,857::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:59:18,857::evaluate::WARNING] Failed 110
+[2024-01-10 13:59:18,857::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:59:18,858::evaluate::WARNING] Failed 111
+[2024-01-10 13:59:18,858::evaluate::WARNING] 'GlobalStorage' object has no attribute 'ligand_filename'
+[2024-01-10 13:59:18,858::evaluate::INFO] Number of results: 0
