@@ -1,0 +1,576 @@
+[2024-01-14 22:23:00,433::sample::INFO] Namespace(bbox_size=26.0, center=[-16.2, 31.6, -26.7], config='./configs/sample_for_pdb.yml', device='cpu', outdir='./outputs', pdb_path='./example/7nng.pdb')
+[2024-01-14 22:23:00,433::sample::INFO] {'model': {'checkpoint': './ckpt/pretrained_Pocket2Mol.pt'}, 'sample': {'seed': 2020, 'num_samples': 300, 'beam_size': 300, 'max_steps': 100, 'threshold': {'focal_threshold': 0.5, 'pos_threshold': 0.25, 'element_threshold': 0.3, 'hasatom_threshold': 0.6, 'bond_threshold': 0.4}}}
+[2024-01-14 22:23:00,434::sample::INFO] Loading data...
+[2024-01-14 22:23:00,741::sample::INFO] Loading main model...
+[2024-01-14 22:23:00,848::sample::INFO] Initialization
+[2024-01-14 22:23:06,462::sample::INFO] [Pool] Queue 39 | Finished 0 | Failed 0
+[2024-01-14 22:23:06,462::sample::INFO] Saving samples...
+[2024-01-14 22:23:06,524::sample::INFO] Start sampling
+[2024-01-14 22:25:18,705::sample::INFO] [Pool] Queue 89 | Finished 0 | Failed 0
+[2024-01-14 22:30:19,424::sample::INFO] [Pool] Queue 200 | Finished 0 | Failed 0
+[2024-01-14 22:31:24,160::sample::INFO] Success: O=CO
+[2024-01-14 22:40:08,367::sample::WARNING] Duplicate molecule: O=CO
+[2024-01-14 22:41:48,643::sample::INFO] [Pool] Queue 300 | Finished 1 | Failed 0
+[2024-01-14 22:44:38,502::sample::INFO] Success: CC#CC
+[2024-01-14 22:45:48,550::sample::INFO] Success: CC(=O)O
+[2024-01-14 22:49:49,182::sample::WARNING] Duplicate molecule: CC(=O)O
+[2024-01-14 22:50:30,051::sample::INFO] Success: CC(N)=O
+[2024-01-14 22:50:43,586::sample::WARNING] Duplicate molecule: CC(N)=O
+[2024-01-14 22:51:07,410::sample::WARNING] Duplicate molecule: CC(=O)O
+[2024-01-14 22:51:58,561::sample::WARNING] Duplicate molecule: CC(N)=O
+[2024-01-14 22:52:46,692::sample::WARNING] Duplicate molecule: CC(=O)O
+[2024-01-14 22:58:47,785::sample::WARNING] Duplicate molecule: CC(N)=O
+[2024-01-14 22:58:51,241::sample::WARNING] Duplicate molecule: CC(=O)O
+[2024-01-14 22:59:08,564::sample::INFO] [Pool] Queue 300 | Finished 4 | Failed 0
+[2024-01-14 23:12:54,923::sample::INFO] Success: O=C(O)CO
+[2024-01-14 23:16:02,924::sample::INFO] Success: COCCO
+[2024-01-14 23:16:41,110::sample::INFO] [Pool] Queue 300 | Finished 6 | Failed 0
+[2024-01-14 23:34:19,340::sample::INFO] [Pool] Queue 300 | Finished 6 | Failed 0
+[2024-01-14 23:35:43,424::sample::INFO] Success: CC(=O)NC(=N)N
+[2024-01-14 23:41:39,339::sample::INFO] Success: CC(=O)NC(C)=O
+[2024-01-14 23:45:30,662::sample::INFO] Success: C#Cc1cc[nH]n1
+[2024-01-14 23:52:09,898::sample::INFO] [Pool] Queue 300 | Finished 9 | Failed 0
+[2024-01-14 23:59:37,658::sample::INFO] Success: CC#CC=CCCN
+[2024-01-15 00:10:00,766::sample::INFO] [Pool] Queue 300 | Finished 10 | Failed 0
+[2024-01-15 00:11:23,887::sample::INFO] Success: O=P(O)(O)OP(=O)(O)O
+[2024-01-15 00:16:23,051::sample::WARNING] Duplicate molecule: O=P(O)(O)OP(=O)(O)O
+[2024-01-15 00:17:09,484::sample::WARNING] Duplicate molecule: O=P(O)(O)OP(=O)(O)O
+[2024-01-15 00:17:41,842::sample::WARNING] Duplicate molecule: O=P(O)(O)OP(=O)(O)O
+[2024-01-15 00:22:55,817::sample::INFO] Success: CC=CC(=O)C(=O)OC
+[2024-01-15 00:27:55,021::sample::INFO] [Pool] Queue 300 | Finished 12 | Failed 0
+[2024-01-15 00:28:43,801::sample::INFO] Success: O=P(O)(O)OCC(O)OO
+[2024-01-15 00:45:56,034::sample::INFO] [Pool] Queue 300 | Finished 13 | Failed 0
+[2024-01-15 00:55:01,619::sample::INFO] Success: O=C(CCO)NC(=O)C(=O)O
+[2024-01-15 00:55:48,354::sample::INFO] Success: CCCOCCOP(=O)(O)O
+[2024-01-15 00:59:30,265::sample::INFO] Success: CC#CC=CCC1=CC=C=C1
+[2024-01-15 01:04:01,521::sample::INFO] [Pool] Queue 300 | Finished 16 | Failed 0
+[2024-01-15 01:22:17,361::sample::INFO] [Pool] Queue 300 | Finished 16 | Failed 0
+[2024-01-15 01:22:32,869::sample::INFO] Success: O=P(O)(O)OP(=O)(O)OP(=O)(O)O
+[2024-01-15 01:24:13,188::sample::WARNING] Duplicate molecule: O=P(O)(O)OP(=O)(O)OP(=O)(O)O
+[2024-01-15 01:25:12,140::sample::WARNING] Duplicate molecule: O=P(O)(O)OP(=O)(O)OP(=O)(O)O
+[2024-01-15 01:25:19,401::sample::WARNING] Duplicate molecule: O=P(O)(O)OP(=O)(O)OP(=O)(O)O
+[2024-01-15 01:25:52,245::sample::INFO] Success: O=C(O)C1=CC(CO)OP(=O)(O)O1
+[2024-01-15 01:25:59,543::sample::WARNING] Duplicate molecule: O=P(O)(O)OP(=O)(O)OP(=O)(O)O
+[2024-01-15 01:26:51,224::sample::INFO] Success: O=C(O)C=CC(O)COP(=O)(O)O
+[2024-01-15 01:31:44,783::sample::WARNING] Duplicate molecule: O=P(O)(O)OP(=O)(O)OP(=O)(O)O
+[2024-01-15 01:33:00,309::sample::WARNING] Duplicate molecule: O=P(O)(O)OP(=O)(O)OP(=O)(O)O
+[2024-01-15 01:33:21,841::sample::WARNING] Duplicate molecule: O=P(O)(O)OP(=O)(O)OP(=O)(O)O
+[2024-01-15 01:35:49,850::sample::WARNING] Duplicate molecule: O=C(O)C=CC(O)COP(=O)(O)O
+[2024-01-15 01:36:57,987::sample::WARNING] Duplicate molecule: O=P(O)(O)OP(=O)(O)OP(=O)(O)O
+[2024-01-15 01:37:37,639::sample::INFO] Success: O=C(O)C(O)C(O)COP(=O)(O)O
+[2024-01-15 01:39:22,088::sample::WARNING] Duplicate molecule: O=P(O)(O)OP(=O)(O)OP(=O)(O)O
+[2024-01-15 01:40:18,993::sample::WARNING] Duplicate molecule: O=P(O)(O)OP(=O)(O)OP(=O)(O)O
+[2024-01-15 01:40:29,701::sample::INFO] [Pool] Queue 300 | Finished 20 | Failed 0
+[2024-01-15 01:42:03,808::sample::INFO] Success: O=C(O)COC(CO)COP(=O)(O)O
+[2024-01-15 01:47:02,749::sample::INFO] Success: Cc1ccn(C(=O)COP(=O)(O)O)c1
+[2024-01-15 01:49:25,237::sample::INFO] Success: O=P(O)(O)OP(=O)(O)OCC(O)CO
+[2024-01-15 01:49:35,904::sample::INFO] Success: O=C(COP(=O)(O)O)N1CCC(O)C1
+[2024-01-15 01:53:55,164::sample::WARNING] Duplicate molecule: O=C(O)COC(CO)COP(=O)(O)O
+[2024-01-15 01:56:47,151::sample::WARNING] Duplicate molecule: O=P(O)(O)OP(=O)(O)OCC(O)CO
+[2024-01-15 01:58:14,968::sample::WARNING] Duplicate molecule: O=C(O)COC(CO)COP(=O)(O)O
+[2024-01-15 01:58:32,374::sample::INFO] Success: O=C(COP(=O)(O)O)n1ccc(O)c1
+[2024-01-15 01:58:35,858::sample::INFO] [Pool] Queue 300 | Finished 25 | Failed 0
+[2024-01-15 01:58:51,212::sample::INFO] Success: CC(C(=O)C(=O)O)C(O)COP(=O)(O)O
+[2024-01-15 02:00:01,129::sample::INFO] Success: CCOP(=O)(O)OP(=O)(O)OP(=O)(O)O
+[2024-01-15 02:00:23,006::sample::WARNING] Duplicate molecule: CCOP(=O)(O)OP(=O)(O)OP(=O)(O)O
+[2024-01-15 02:02:01,903::sample::WARNING] Duplicate molecule: CC(C(=O)C(=O)O)C(O)COP(=O)(O)O
+[2024-01-15 02:04:37,971::sample::INFO] Success: CC1(C)CCN(CCOP(=O)(O)O)C1=O
+[2024-01-15 02:06:25,786::sample::WARNING] Duplicate molecule: CCOP(=O)(O)OP(=O)(O)OP(=O)(O)O
+[2024-01-15 02:06:36,425::sample::INFO] Success: CC(CCC(=O)O)C(=O)NC(O)C(=O)O
+[2024-01-15 02:06:50,730::sample::INFO] Success: CC1CC(N)C(=O)N1CCOP(=O)(O)O
+[2024-01-15 02:08:22,802::sample::INFO] Success: CNC1OC(COP(=O)(O)O)C(O)C1O
+[2024-01-15 02:12:11,659::sample::WARNING] Duplicate molecule: CC1(C)CCN(CCOP(=O)(O)O)C1=O
+[2024-01-15 02:16:27,948::sample::INFO] [Pool] Queue 300 | Finished 31 | Failed 0
+[2024-01-15 02:20:10,224::sample::INFO] Success: C=C(CCOP(=O)(O)OP(=O)(O)O)C(C)C
+[2024-01-15 02:20:32,376::sample::INFO] Success: CC1(C)CN(CCOP(=O)(O)O)C(=O)C1O
+[2024-01-15 02:21:16,411::sample::INFO] Success: COCC1OCCN(C(=O)CC(=O)O)C1O
+[2024-01-15 02:21:53,278::sample::INFO] Success: CC1(O)CN(CCOP(=O)(O)O)C(=O)C1O
+[2024-01-15 02:23:06,975::sample::INFO] Success: NC(=O)NCC(=O)OP(=O)(O)OP(=O)(O)O
+[2024-01-15 02:26:51,463::sample::WARNING] Duplicate molecule: CC1(C)CN(CCOP(=O)(O)O)C(=O)C1O
+[2024-01-15 02:30:51,670::sample::INFO] Success: O=C(O)C=CC(O)=C1CC(=O)C(C(=O)O)O1
+[2024-01-15 02:31:02,412::sample::WARNING] Duplicate molecule: COCC1OCCN(C(=O)CC(=O)O)C1O
+[2024-01-15 02:32:18,475::sample::INFO] Success: O=P(O)(O)OP(=O)(O)OCCCCNCO
+[2024-01-15 02:34:49,810::sample::INFO] Success: CC1NC(=O)c2c(N)ccc(C(=O)O)c2O1
+[2024-01-15 02:34:49,821::sample::INFO] [Pool] Queue 300 | Finished 39 | Failed 0
+[2024-01-15 02:35:24,337::sample::INFO] Success: O=P(O)(O)OP(=O)(O)Oc1ccc(O)c(F)c1
+[2024-01-15 02:35:31,777::sample::INFO] Success: O=C(O)CCN1CCC(O)CC1OP(=O)(O)O
+[2024-01-15 02:36:28,372::sample::INFO] Success: O=P(O)(O)OP(=O)(O)OC(CO)COCCO
+[2024-01-15 02:37:28,560::sample::INFO] Success: O=C1CC(C(=O)O)N(CCOP(=O)(O)O)C1=O
+[2024-01-15 02:38:43,342::sample::INFO] Success: COC(C)C1CCC(=O)N1CCOP(=O)(O)O
+[2024-01-15 02:39:01,748::sample::INFO] Success: CCC(=CC=O)CCOP(=O)(O)OP(=O)(O)O
+[2024-01-15 02:39:35,165::sample::INFO] Success: CC1NC(=O)c2c(N)ccc(C(=O)NO)c2O1
+[2024-01-15 02:41:37,580::sample::INFO] Success: O=P(O)(O)OP(=O)(O)Oc1ccc(F)c(F)c1
+[2024-01-15 02:45:03,779::sample::INFO] Success: O=CCCOP(=O)(O)OP(=O)(O)OP(=O)(O)O
+[2024-01-15 02:46:02,254::sample::WARNING] Duplicate molecule: O=P(O)(O)OP(=O)(O)Oc1ccc(O)c(F)c1
+[2024-01-15 02:46:56,843::sample::WARNING] Duplicate molecule: O=P(O)(O)OP(=O)(O)Oc1ccc(O)c(F)c1
+[2024-01-15 02:47:22,119::sample::WARNING] Duplicate molecule: O=C(O)CCN1CCC(O)CC1OP(=O)(O)O
+[2024-01-15 02:48:05,754::sample::INFO] Success: O=C(O)C(COP(=O)(O)O)OCCNCCO
+[2024-01-15 02:48:27,559::sample::INFO] Success: CC1(C(O)CO)CC(O)C(COP(=O)(O)O)O1
+[2024-01-15 02:50:59,466::sample::INFO] Success: O=P(O)(O)OP(=O)(O)OCCc1ccncc1
+[2024-01-15 02:53:13,483::sample::INFO] [Pool] Queue 300 | Finished 51 | Failed 0
+[2024-01-15 02:55:10,884::sample::INFO] Success: O=CC=C(CCO)CCOP(=O)(O)OP(=O)(O)O
+[2024-01-15 02:55:55,686::sample::INFO] Success: O=P(O)(O)Oc1ccc(F)cc1C=CCCCO
+[2024-01-15 02:57:54,958::sample::INFO] Success: COC(CO)C1OP(=O)(OP(=O)(O)O)OCC1=O
+[2024-01-15 02:58:05,939::sample::INFO] Success: COC(=O)C(O)C(O)COP(=O)(O)OP(=O)(O)O
+[2024-01-15 03:01:25,604::sample::WARNING] Duplicate molecule: COC(=O)C(O)C(O)COP(=O)(O)OP(=O)(O)O
+[2024-01-15 03:01:47,498::sample::WARNING] Duplicate molecule: O=P(O)(O)Oc1ccc(F)cc1C=CCCCO
+[2024-01-15 03:02:20,878::sample::INFO] Success: Cn1nc(COP(=O)(O)OP(=O)(O)O)n(C)c1=O
+[2024-01-15 03:03:44,884::sample::INFO] Success: CC1(C(O)CO)OC(COP(=O)(O)O)C(O)C1O
+[2024-01-15 03:03:55,542::sample::INFO] Success: O=C(CO)NCCOC(COP(=O)(O)O)C(=O)O
+[2024-01-15 03:04:50,139::sample::WARNING] Duplicate molecule: Cn1nc(COP(=O)(O)OP(=O)(O)O)n(C)c1=O
+[2024-01-15 03:07:37,553::sample::WARNING] Duplicate molecule: O=P(O)(O)Oc1ccc(F)cc1C=CCCCO
+[2024-01-15 03:07:48,303::sample::INFO] Success: C=C(OP(=O)(O)OP(=O)(O)OP(=O)(O)O)C(=O)O
+[2024-01-15 03:08:35,213::sample::WARNING] Duplicate molecule: O=P(O)(O)Oc1ccc(F)cc1C=CCCCO
+[2024-01-15 03:10:38,543::sample::WARNING] Duplicate molecule: Cn1nc(COP(=O)(O)OP(=O)(O)O)n(C)c1=O
+[2024-01-15 03:11:32,557::sample::WARNING] Duplicate molecule: COC(=O)C(O)C(O)COP(=O)(O)OP(=O)(O)O
+[2024-01-15 03:11:36,112::sample::INFO] [Pool] Queue 300 | Finished 59 | Failed 0
+[2024-01-15 03:11:59,173::sample::INFO] Success: CC(CCC(=O)O)C(=O)NC(OP(=O)(O)O)C(=O)O
+[2024-01-15 03:12:14,116::sample::INFO] Success: O=P(O)(O)OP(=O)(O)Oc1ccccc1C(O)CO
+[2024-01-15 03:13:06,503::sample::INFO] Success: O=P(O)(O)OP(=O)(O)OC1C(O)COC1C(O)CO
+[2024-01-15 03:13:43,532::sample::INFO] Success: O=C(O)COCC1OP(=O)(OP(=O)(O)O)OCC1O
+[2024-01-15 03:14:13,411::sample::INFO] Success: COC(=O)C1C=CC=C2OP(=O)(OP(=O)(O)O)OC21
+[2024-01-15 03:18:02,004::sample::INFO] Success: O=C(O)C(O)COP(=O)(O)OP(=O)(O)OP(=O)(O)O
+[2024-01-15 03:20:13,934::sample::INFO] Success: NCC(CCO)OP(=O)(O)OP(=O)(O)OP(=O)(O)O
+[2024-01-15 03:20:35,822::sample::INFO] Success: O=P(O)(O)OP1(=O)OP(=O)(O)OP(=O)(OCCO)O1
+[2024-01-15 03:22:14,547::sample::WARNING] Duplicate molecule: CC(CCC(=O)O)C(=O)NC(OP(=O)(O)O)C(=O)O
+[2024-01-15 03:22:21,736::sample::WARNING] Duplicate molecule: O=C(O)COCC1OP(=O)(OP(=O)(O)O)OCC1O
+[2024-01-15 03:24:10,484::sample::INFO] Success: O=CCOP1(=O)OP(=O)(O)OP(=O)(OP(=O)(O)O)O1
+[2024-01-15 03:25:15,783::sample::INFO] Success: CNC(=O)c1cccc2c1OP(=O)(OP(=O)(O)O)O2
+[2024-01-15 03:25:37,427::sample::INFO] Success: CC(CCC(=O)O)C(=O)NC1OP(=O)(O)ONC1=O
+[2024-01-15 03:29:52,541::sample::INFO] [Pool] Queue 300 | Finished 70 | Failed 0
+[2024-01-15 03:30:15,861::sample::INFO] Success: O=CNCCCCOP(=O)(O)OP(=O)(O)OCC(=O)O
+[2024-01-15 03:30:38,213::sample::INFO] Success: O=C(O)CCCCOP(=O)(O)OP(=O)(O)OP(=O)(O)O
+[2024-01-15 03:31:19,438::sample::INFO] Success: C=C(CNC1=C(CO)CN(C(N)=O)CC1)C(=CC)OC
+[2024-01-15 03:31:53,087::sample::INFO] Success: O=C(O)C(COP(=O)(O)O)OCCNC(=O)C(F)(F)F
+[2024-01-15 03:32:22,978::sample::INFO] Success: Cc1cc(COP(=O)(O)O)c2c(c1N)C(=O)NC(C)O2
+[2024-01-15 03:33:03,769::sample::INFO] Success: O=P1(O)OCC(O)OC(O)COP(=O)(O)OP(=O)(O)O1
+[2024-01-15 03:33:25,956::sample::WARNING] Duplicate molecule: Cc1cc(COP(=O)(O)O)c2c(c1N)C(=O)NC(C)O2
+[2024-01-15 03:33:29,617::sample::INFO] Success: O=C(O)COC(O)C1OP(=O)(OP(=O)(O)O)OCC1O
+[2024-01-15 03:34:21,353::sample::INFO] Success: O=C1OCC(O)C(COC(=CO)COP(=O)(O)O)C1O
+[2024-01-15 03:34:58,142::sample::INFO] Success: O=P(O)(O)OP1(=O)OP(=O)(O)OP(=O)(OCCCO)O1
+[2024-01-15 03:35:01,737::sample::INFO] Success: O=C(O)CCC(=O)NC(OCCC(O)C(=O)O)C(=O)O
+[2024-01-15 03:35:49,554::sample::WARNING] Duplicate molecule: O=P(O)(O)OP1(=O)OP(=O)(O)OP(=O)(OCCCO)O1
+[2024-01-15 03:35:56,812::sample::INFO] Success: CC(CO)C(N)C(O)=C(COP(=O)(O)O)OCC(=O)O
+[2024-01-15 03:36:04,077::sample::WARNING] Duplicate molecule: O=C(O)CCCCOP(=O)(O)OP(=O)(O)OP(=O)(O)O
+[2024-01-15 03:36:37,642::sample::WARNING] Duplicate molecule: O=C(O)C(COP(=O)(O)O)OCCNC(=O)C(F)(F)F
+[2024-01-15 03:36:41,297::sample::INFO] Success: CC(CCC(=O)O)C(=O)NC1OP(=O)(O)OC(=O)C1=O
+[2024-01-15 03:37:07,160::sample::INFO] Success: CC(CCC(=O)O)C(=O)NC1O[PH](=O)(=O)OC(=O)C1=O
+[2024-01-15 03:37:40,341::sample::WARNING] Duplicate molecule: CC(CO)C(N)C(O)=C(COP(=O)(O)O)OCC(=O)O
+[2024-01-15 03:38:17,144::sample::WARNING] Duplicate molecule: O=P(O)(O)OP1(=O)OP(=O)(O)OP(=O)(OCCCO)O1
+[2024-01-15 03:38:31,911::sample::WARNING] Duplicate molecule: CC(CCC(=O)O)C(=O)NC1OP(=O)(O)OC(=O)C1=O
+[2024-01-15 03:39:08,706::sample::INFO] Success: CCC(NC)C(N)C(O)=C(COP(=O)(O)O)OCCO
+[2024-01-15 03:39:38,396::sample::WARNING] Duplicate molecule: CC(CO)C(N)C(O)=C(COP(=O)(O)O)OCC(=O)O
+[2024-01-15 03:39:42,018::sample::INFO] Success: O=C(CO)C(O)COP(=O)(O)OP(=O)(O)OP(=O)(O)O
+[2024-01-15 03:40:07,668::sample::WARNING] Duplicate molecule: O=C(O)COC(O)C1OP(=O)(OP(=O)(O)O)OCC1O
+[2024-01-15 03:40:36,994::sample::WARNING] Duplicate molecule: O=C(CO)C(O)COP(=O)(O)OP(=O)(O)OP(=O)(O)O
+[2024-01-15 03:41:53,882::sample::WARNING] Duplicate molecule: O=C(O)COC(O)C1OP(=O)(OP(=O)(O)O)OCC1O
+[2024-01-15 03:41:57,483::sample::INFO] Success: CCCNCc1cnc2nccn2c1COP(=O)(O)O
+[2024-01-15 03:42:04,769::sample::INFO] Success: O=C(O)C=CC1CC(CC(=O)O)OCC1OP(=O)(O)O
+[2024-01-15 03:42:44,660::sample::WARNING] Duplicate molecule: O=C(O)COC(O)C1OP(=O)(OP(=O)(O)O)OCC1O
+[2024-01-15 03:44:08,147::sample::WARNING] Duplicate molecule: O=C(O)C(COP(=O)(O)O)OCCNC(=O)C(F)(F)F
+[2024-01-15 03:44:11,679::sample::INFO] Success: COC1COP(=O)(O)OP(=O)(O)OP(=O)(O)OCCO1
+[2024-01-15 03:44:22,526::sample::WARNING] Duplicate molecule: Cc1cc(COP(=O)(O)O)c2c(c1N)C(=O)NC(C)O2
+[2024-01-15 03:44:44,130::sample::INFO] Success: COCOC1C(O)CC(N)C1OP(=O)(O)OP(=O)(O)O
+[2024-01-15 03:46:32,319::sample::WARNING] Duplicate molecule: Cc1cc(COP(=O)(O)O)c2c(c1N)C(=O)NC(C)O2
+[2024-01-15 03:47:51,870::sample::WARNING] Duplicate molecule: O=C(O)C(COP(=O)(O)O)OCCNC(=O)C(F)(F)F
+[2024-01-15 03:48:13,857::sample::INFO] [Pool] Queue 300 | Finished 89 | Failed 0
+[2024-01-15 03:48:25,801::sample::INFO] Success: O=C(C(CO)OP(=O)(O)OP(=O)(O)O)n1cncnc1=O
+[2024-01-15 03:48:29,459::sample::INFO] Success: C=C(O)C(OP(=O)(O)OP(=O)(O)OP(=O)(O)O)=C(O)CO
+[2024-01-15 03:48:40,698::sample::INFO] Success: NC(=O)N1C=Cc2c(ncnc2NC2COP(=O)(O)O2)C1
+[2024-01-15 03:48:59,372::sample::INFO] Success: COCC(=O)C(O)COP(=O)(O)OP(=O)(O)OP(=O)(O)O
+[2024-01-15 03:49:18,041::sample::INFO] Success: O=C(O)CCNC(=O)C(OP(=O)(O)OP(=O)(O)O)C(=O)O
+[2024-01-15 03:49:58,920::sample::INFO] Success: Cn1ccc(C2C=CC=C3OP(=O)(OP(=O)(O)O)OC32)c1
+[2024-01-15 03:50:10,076::sample::INFO] Success: O=C(O)CC(=O)N1CCC(OP(=O)(O)O)OC(CO)C1O
+[2024-01-15 03:50:54,736::sample::INFO] Success: CCC1C(=O)OCCOC(=O)CN1C(=O)CCNC(N)=O
+[2024-01-15 03:51:39,997::sample::WARNING] Duplicate molecule: O=C(O)CC(=O)N1CCC(OP(=O)(O)O)OC(CO)C1O
+[2024-01-15 03:52:05,983::sample::INFO] Success: O=C(O)CCOP1(=O)OP(=O)(O)OP(=O)(OP(=O)(O)O)O1
+[2024-01-15 03:53:12,396::sample::WARNING] Duplicate molecule: O=C(O)CCOP1(=O)OP(=O)(O)OP(=O)(OP(=O)(O)O)O1
+[2024-01-15 03:53:16,005::sample::INFO] Success: COCOC1C(O)C(O)C(O)C1OP(=O)(O)OP(=O)(O)O
+[2024-01-15 03:53:45,604::sample::WARNING] Duplicate molecule: O=C(O)CCOP1(=O)OP(=O)(O)OP(=O)(OP(=O)(O)O)O1
+[2024-01-15 03:54:15,107::sample::INFO] Success: O=P(O)(O)OP(=O)(O)OP(=O)(O)OCCc1ccncc1
+[2024-01-15 03:54:18,732::sample::INFO] Success: O=P1(O)OCCC(CO)C(O)COP(=O)(O)OP(=O)(O)O1
+[2024-01-15 03:55:40,038::sample::INFO] Success: COCC(O)C(O)COP(=O)(O)OP(=O)(O)OP(=O)(O)O
+[2024-01-15 03:55:58,416::sample::INFO] Success: Nc1nncn1CC(OP(=O)(O)OP(=O)(O)O)C(O)CO
+[2024-01-15 03:56:02,007::sample::INFO] Success: CNC(=O)OC1COC=CCOP(=O)(O)OP(=O)(O)OC1
+[2024-01-15 03:56:09,269::sample::WARNING] Duplicate molecule: O=C(O)CCNC(=O)C(OP(=O)(O)OP(=O)(O)O)C(=O)O
+[2024-01-15 03:56:31,204::sample::WARNING] Duplicate molecule: O=C(O)CCOP1(=O)OP(=O)(O)OP(=O)(OP(=O)(O)O)O1
+[2024-01-15 03:57:12,113::sample::INFO] Success: CC(C)(NC(=O)C(=CC(=O)O)COP(=O)(O)O)C(=O)NO
+[2024-01-15 03:57:19,343::sample::WARNING] Duplicate molecule: CNC(=O)OC1COC=CCOP(=O)(O)OP(=O)(O)OC1
+[2024-01-15 03:57:48,741::sample::WARNING] Duplicate molecule: COCOC1C(O)C(O)C(O)C1OP(=O)(O)OP(=O)(O)O
+[2024-01-15 03:57:52,343::sample::INFO] Success: O=C1CN(C(=O)C(CO)OP(=O)(O)OP(=O)(O)O)C(=O)N1
+[2024-01-15 03:58:10,737::sample::WARNING] Duplicate molecule: Cn1ccc(C2C=CC=C3OP(=O)(OP(=O)(O)O)OC32)c1
+[2024-01-15 03:58:14,287::sample::WARNING] Duplicate molecule: O=C(O)CCOP1(=O)OP(=O)(O)OP(=O)(OP(=O)(O)O)O1
+[2024-01-15 03:58:47,040::sample::WARNING] Duplicate molecule: CC(C)(NC(=O)C(=CC(=O)O)COP(=O)(O)O)C(=O)NO
+[2024-01-15 03:59:12,749::sample::WARNING] Duplicate molecule: C=C(O)C(OP(=O)(O)OP(=O)(O)OP(=O)(O)O)=C(O)CO
+[2024-01-15 04:01:02,425::sample::WARNING] Duplicate molecule: COCC(=O)C(O)COP(=O)(O)OP(=O)(O)OP(=O)(O)O
+[2024-01-15 04:01:09,607::sample::INFO] Success: CC(=CO)C1=CCC(C(CC(=O)O)c2nn(C)c(=O)[nH]2)=N1
+[2024-01-15 04:01:31,264::sample::WARNING] Duplicate molecule: O=C(O)CCOP1(=O)OP(=O)(O)OP(=O)(OP(=O)(O)O)O1
+[2024-01-15 04:02:44,047::sample::INFO] Success: O=P(O)(O)OCC(=CO)OCC1C(O)C(O)OC(O)C1O
+[2024-01-15 04:02:51,155::sample::WARNING] Duplicate molecule: O=C(O)CCOP1(=O)OP(=O)(O)OP(=O)(OP(=O)(O)O)O1
+[2024-01-15 04:02:54,718::sample::INFO] Success: O=P(O)(O)OP(=O)(O)OP(=O)(O)OCCc1cncnc1
+[2024-01-15 04:03:34,463::sample::WARNING] Duplicate molecule: O=C(O)CCOP1(=O)OP(=O)(O)OP(=O)(OP(=O)(O)O)O1
+[2024-01-15 04:04:17,615::sample::WARNING] Duplicate molecule: COCC(O)C(O)COP(=O)(O)OP(=O)(O)OP(=O)(O)O
+[2024-01-15 04:04:46,551::sample::WARNING] Duplicate molecule: O=C(O)CCOP1(=O)OP(=O)(O)OP(=O)(OP(=O)(O)O)O1
+[2024-01-15 04:04:57,309::sample::WARNING] Duplicate molecule: Nc1nncn1CC(OP(=O)(O)OP(=O)(O)O)C(O)CO
+[2024-01-15 04:05:18,868::sample::WARNING] Duplicate molecule: O=C(C(CO)OP(=O)(O)OP(=O)(O)O)n1cncnc1=O
+[2024-01-15 04:05:36,976::sample::WARNING] Duplicate molecule: O=P(O)(O)OP(=O)(O)OP(=O)(O)OCCc1ccncc1
+[2024-01-15 04:06:05,773::sample::WARNING] Duplicate molecule: Nc1nncn1CC(OP(=O)(O)OP(=O)(O)O)C(O)CO
+[2024-01-15 04:06:34,478::sample::INFO] [Pool] Queue 300 | Finished 109 | Failed 0
+[2024-01-15 04:07:09,276::sample::INFO] Success: C=C(COCO)OP1(=O)OP(=O)(O)OP(=O)(OP(=O)(O)O)O1
+[2024-01-15 04:08:43,720::sample::INFO] Success: CCC1C(=O)OCC(=O)NC(=O)CN1C(=O)CCNC(N)=O
+[2024-01-15 04:09:43,980::sample::INFO] Success: C=C(O)C(OP(=O)(O)OP(=O)(O)OP(=O)(O)O)=C(O)CCO
+[2024-01-15 04:10:25,077::sample::INFO] Success: O=C1C(O)C(CO)OCCOP(=O)(O)OP(=O)(O)OP1(=O)O
+[2024-01-15 04:11:36,142::sample::INFO] Success: Cn1c2c(c(N)nc1=O)CNC(C(=O)O)=COP(=O)(O)OC2
+[2024-01-15 04:12:43,348::sample::INFO] Success: NC(=O)N1CCC2=C(C1)CN(S(O)(O)O)C(=O)N2CC(=O)O
+[2024-01-15 04:15:07,647::sample::WARNING] Duplicate molecule: C=C(COCO)OP1(=O)OP(=O)(O)OP(=O)(OP(=O)(O)O)O1
+[2024-01-15 04:15:11,235::sample::INFO] Success: CC=C(O)CNCc1cnc2nccn2c1COP(=O)(O)O
+[2024-01-15 04:15:22,165::sample::INFO] Success: O=C(CCO)Nc1c(O)cccc1OP(=O)(O)OP(=O)(O)O
+[2024-01-15 04:16:13,823::sample::WARNING] Duplicate molecule: O=C(CCO)Nc1c(O)cccc1OP(=O)(O)OP(=O)(O)O
+[2024-01-15 04:20:23,833::sample::WARNING] Duplicate molecule: Cn1c2c(c(N)nc1=O)CNC(C(=O)O)=COP(=O)(O)OC2
+[2024-01-15 04:20:31,061::sample::WARNING] Duplicate molecule: NC(=O)N1CCC2=C(C1)CN(S(O)(O)O)C(=O)N2CC(=O)O
+[2024-01-15 04:20:38,347::sample::WARNING] Duplicate molecule: NC(=O)N1CCC2=C(C1)CN(S(O)(O)O)C(=O)N2CC(=O)O
+[2024-01-15 04:20:49,220::sample::INFO] Success: COC(=O)C(OCC(=O)O)C(O)COP(=O)(O)OP(=O)(O)O
+[2024-01-15 04:21:14,777::sample::INFO] Success: O=C(O)COC(COP(=O)(O)O)C1OC(O)OC(CO)C1O
+[2024-01-15 04:24:10,475::sample::INFO] Success: C=CCOC(CO)C(OP(=O)(O)OP(=O)(O)O)C(C)CNC
+[2024-01-15 04:24:28,436::sample::WARNING] Duplicate molecule: NC(=O)N1CCC2=C(C1)CN(S(O)(O)O)C(=O)N2CC(=O)O
+[2024-01-15 04:25:05,080::sample::INFO] [Pool] Queue 300 | Finished 120 | Failed 0
+[2024-01-15 04:25:54,819::sample::INFO] Success: O=P1(O)OCCOC2C(O)C(CC3OC32)P(=O)(O)OP(=O)(O)O1
+[2024-01-15 04:26:13,570::sample::INFO] Success: CCC1C(=O)OCC(=O)OC(OC)CN1C(=O)CCNC(N)=O
+[2024-01-15 04:26:47,347::sample::INFO] Success: O=C1OC2C(OC(C(O)CO)C2OP(=O)(O)OP(=O)(O)O)C1O
+[2024-01-15 04:27:28,650::sample::INFO] Success: CC1CCC(OCCOP(=O)(O)OP(=O)(O)OP(=O)(O)O)C1O
+[2024-01-15 04:28:39,667::sample::INFO] Success: O=C(O)Nc1cc(OC(=O)O)cc(C(=O)NC(O)CCCO)c1
+[2024-01-15 04:29:24,626::sample::INFO] Success: O=P1(O)OCCOC2COCCC(C2O)P(=O)(O)OP(=O)(O)O1
+[2024-01-15 04:29:28,293::sample::INFO] Success: O=C(NO)NC1COC(C(O)CO)C1OP(=O)(O)OP(=O)(O)O
+[2024-01-15 04:29:54,502::sample::INFO] Success: NC1CCC(OCCOP(=O)(O)OP(=O)(O)OP(=O)(O)O)C1O
+[2024-01-15 04:30:16,774::sample::INFO] Success: O=P(O)(O)OP(=O)(O)OP(=O)(O)OCCOC1CCC(O)C1O
+[2024-01-15 04:31:20,523::sample::INFO] Success: CNCCC(OP(=O)(O)OP(=O)(O)O)C(CO)OC(=O)CCO
+[2024-01-15 04:32:42,763::sample::INFO] Success: O=C(O)CC(=O)NC1c2ccc(OCCO)cc2NC(=O)C1O
+[2024-01-15 04:32:46,339::sample::INFO] Success: O=C(O)OC1COC=COP(=O)(O)OP(=O)(O)OP(=O)(O)OC1
+[2024-01-15 04:33:30,880::sample::INFO] Success: Nc1nc2nccn2c(COP(=O)(O)O)c1CNC=CC(=O)O
+[2024-01-15 04:33:49,070::sample::INFO] Success: CCCC(=O)NCc1c(N)nc2nccn2c1COP(=O)(O)O
+[2024-01-15 04:34:11,164::sample::WARNING] Duplicate molecule: Nc1nc2nccn2c(COP(=O)(O)O)c1CNC=CC(=O)O
+[2024-01-15 04:34:33,330::sample::INFO] Success: C=CC(O)COC(COC(=O)CO)=C(O)C(O)COP(=O)(O)O
+[2024-01-15 04:34:51,925::sample::INFO] Success: NC1CCOP(=O)(OP(=O)(O)O)OC(C(=O)COP(=O)(O)O)C1
+[2024-01-15 04:34:55,539::sample::INFO] Success: CC1NCC(OCCOP(=O)(O)OP(=O)(O)OP(=O)(O)O)C1O
+[2024-01-15 04:35:06,456::sample::INFO] Success: CCCNC(=O)COP(=O)(O)OP(=O)(O)OCCCCNC=O
+[2024-01-15 04:35:21,381::sample::INFO] Success: NC(=O)N1CCC2=C(C1)CN(S(O)(O)O)C(=O)N2CC(O)CO
+[2024-01-15 04:35:43,462::sample::INFO] Success: C=C(COCCO)OP1(=O)OP(=O)(O)OP(=O)(OP(=O)(O)O)O1
+[2024-01-15 04:37:15,131::sample::INFO] Success: CCC1C(=O)OCC=COC(O)CCN1C(=O)CCNC(N)=O
+[2024-01-15 04:37:26,118::sample::INFO] Success: CNC(=O)CC(OP(=O)(O)OP(=O)(O)O)C(=O)COP(=O)(O)O
+[2024-01-15 04:38:43,546::sample::WARNING] Duplicate molecule: O=P1(O)OCCOC2C(O)C(CC3OC32)P(=O)(O)OP(=O)(O)O1
+[2024-01-15 04:38:47,091::sample::INFO] Success: C=CCOP(=O)(O)OP(=O)(O)OP(=O)(O)OCC(=C)OCCO
+[2024-01-15 04:39:38,418::sample::INFO] Success: O=P(O)(O)OCC(O)C(O)=C(COCCO)OCC1CNCO1
+[2024-01-15 04:39:45,633::sample::WARNING] Duplicate molecule: CC1CCC(OCCOP(=O)(O)OP(=O)(O)OP(=O)(O)O)C1O
+[2024-01-15 04:39:49,165::sample::WARNING] Duplicate molecule: O=P1(O)OCCOC2COCCC(C2O)P(=O)(O)OP(=O)(O)O1
+[2024-01-15 04:39:52,705::sample::WARNING] Duplicate molecule: CCC1C(=O)OCC(=O)OC(OC)CN1C(=O)CCNC(N)=O
+[2024-01-15 04:39:56,248::sample::WARNING] Duplicate molecule: CC1NCC(OCCOP(=O)(O)OP(=O)(O)OP(=O)(O)O)C1O
+[2024-01-15 04:40:21,779::sample::INFO] Success: O=P(O)(O)OP(=O)(O)OP(=O)(O)OCCc1cccc(O)c1O
+[2024-01-15 04:42:11,735::sample::INFO] Success: CCOC(=O)NCc1c(N)nc2nccn2c1COP(=O)(O)O
+[2024-01-15 04:42:22,672::sample::INFO] Success: O=C(O)C1CN(C(=O)C(CO)OP(=O)(O)OP(=O)(O)O)C(=O)N1
+[2024-01-15 04:43:35,731::sample::INFO] [Pool] Queue 300 | Finished 147 | Failed 0
+[2024-01-15 04:43:51,693::sample::INFO] Success: O=C(NCO)NC1COC(C(O)CO)C1OP(=O)(O)OP(=O)(O)O
+[2024-01-15 04:44:28,743::sample::INFO] Success: O=CNC(=O)NC1COC(C(O)CO)C1OP(=O)(O)OP(=O)(O)O
+[2024-01-15 04:44:43,446::sample::INFO] Success: NC(=O)C(=CCC1CCCN1)OP(=O)(O)OP(=O)(O)OP(=O)(O)O
+[2024-01-15 04:45:12,856::sample::INFO] Success: NC1CC(O)C(OCCOP(=O)(O)OP(=O)(O)OP(=O)(O)O)C1O
+[2024-01-15 04:46:07,981::sample::INFO] Success: CCC1C(=O)OCC(=O)OC(C(=O)O)CN1C(=O)CCNC(N)=O
+[2024-01-15 04:46:15,328::sample::INFO] Success: CC1CC(O)CC1NC1c2ccc(OCCO)cc2NC(=O)C1O
+[2024-01-15 04:46:51,972::sample::INFO] Success: C=C(C)OC(=O)NCc1c(N)nc2nccn2c1COP(=O)(O)O
+[2024-01-15 04:47:02,985::sample::WARNING] Duplicate molecule: NC(=O)C(=CCC1CCCN1)OP(=O)(O)OP(=O)(O)OP(=O)(O)O
+[2024-01-15 04:47:32,201::sample::INFO] Success: COC(=O)C1OCC(=O)NOCOP(=O)(O)OP(=O)(O)OCC1O
+[2024-01-15 04:47:43,039::sample::INFO] Success: O=C(O)C=C1CN(C(=O)C(CO)OP(=O)(O)OP(=O)(O)O)C(=O)N1
+[2024-01-15 04:48:08,411::sample::INFO] Success: O=C(O)OC1C2OC(=COP(=O)(O)OP(=O)(O)OP(=O)(O)O2)C1O
+[2024-01-15 04:48:30,077::sample::INFO] Success: COC(NC(=O)c1cc(NC(=O)O)cc(OC(=O)O)c1)C(F)(F)F
+[2024-01-15 04:48:33,624::sample::INFO] Success: O=P(O)(O)OP(=O)(O)OC(Cn1cnnc1NCCO)C(O)CO
+[2024-01-15 04:48:55,338::sample::WARNING] Duplicate molecule: NC1CC(O)C(OCCOP(=O)(O)OP(=O)(O)OP(=O)(O)O)C1O
+[2024-01-15 04:49:06,239::sample::INFO] Success: NC(=O)N1CCC2=C(C1)CN(S(O)(O)O)C(=O)N2c1ccccc1
+[2024-01-15 04:49:42,740::sample::INFO] Success: O=C1COP(=O)(O)OP(=O)(O)OP(=O)(O)OCC(OCCO)CO1
+[2024-01-15 04:50:04,664::sample::INFO] Success: NC(=O)NCCC(=O)N1CCOC(CO)COC(=O)C1CC(=O)O
+[2024-01-15 04:50:11,780::sample::WARNING] Ignoring, because reconstruction error encountered.
+[2024-01-15 04:50:48,111::sample::INFO] Success: CCC1C(=O)OCCC(=O)OC(O)CCN1C(=O)CCNC(N)=O
+[2024-01-15 04:51:20,980::sample::INFO] Success: NC(=O)C(=CCC1CCNC1)OP(=O)(O)OP(=O)(O)OP(=O)(O)O
+[2024-01-15 04:51:24,549::sample::INFO] Success: CC1CCC(=O)C1NC1c2ccc(OCCO)cc2NC(=O)C1O
+[2024-01-15 04:53:20,769::sample::INFO] Success: Cc1cc(O)c(O)c(C(=O)Nc2cc(CNC(=O)O)ccc2O)c1
+[2024-01-15 04:53:49,662::sample::INFO] Success: CC1CC(O)C2OCCOP(=O)(O)OP(=O)(O)OP(=O)(O)OC=C12
+[2024-01-15 04:54:39,720::sample::INFO] Success: O=P(O)(O)OP(=O)(O)OP(=O)(O)OC(CCO)CCN1CCCC1
+[2024-01-15 04:55:04,855::sample::INFO] Success: O=C(O)c1cncc(CCOP(=O)(O)OP(=O)(O)OP(=O)(O)O)c1
+[2024-01-15 04:56:05,721::sample::INFO] Success: CCC=C(CNCC(C)CC)OP(=O)(O)OP(=O)(O)OP(=O)(O)O
+[2024-01-15 04:56:59,251::sample::WARNING] Duplicate molecule: CCC1C(=O)OCC(=O)OC(C(=O)O)CN1C(=O)CCNC(N)=O
+[2024-01-15 04:57:31,114::sample::WARNING] Duplicate molecule: NC(=O)N1CCC2=C(C1)CN(S(O)(O)O)C(=O)N2c1ccccc1
+[2024-01-15 04:57:34,544::sample::INFO] Success: O=P(O)(O)OP(=O)(O)OP(=O)(O)OCCOC1COC(CO)C1O
+[2024-01-15 04:58:24,114::sample::WARNING] Duplicate molecule: O=P(O)(O)OP(=O)(O)OP(=O)(O)OCCOC1COC(CO)C1O
+[2024-01-15 04:59:13,663::sample::INFO] Success: O=P(O)(O)OP(=O)(O)OP(=O)(O)OCC(O)c1ccccc1CO
+[2024-01-15 04:59:38,260::sample::INFO] Success: Nc1noc(C2CC(OP(=O)(O)OP(=O)(O)O)C3CCNCC23)n1
+[2024-01-15 05:00:31,544::sample::WARNING] Duplicate molecule: O=CNC(=O)NC1COC(C(O)CO)C1OP(=O)(O)OP(=O)(O)O
+[2024-01-15 05:00:38,574::sample::INFO] Success: O=C1COCC(=CC(O)=CCO)OP(=O)(O)OP(=O)(O)OCCO1
+[2024-01-15 05:01:03,391::sample::WARNING] Duplicate molecule: O=C(O)C=C1CN(C(=O)C(CO)OP(=O)(O)OP(=O)(O)O)C(=O)N1
+[2024-01-15 05:01:13,807::sample::INFO] Success: O=C(O)CC(=CCO)C(O)COP(=O)(O)OP(=O)(O)OP(=O)(O)O
+[2024-01-15 05:01:28,080::sample::WARNING] Duplicate molecule: O=C(NCO)NC1COC(C(O)CO)C1OP(=O)(O)OP(=O)(O)O
+[2024-01-15 05:01:38,561::sample::INFO] [Pool] Queue 300 | Finished 175 | Failed 1
+[2024-01-15 05:01:43,323::sample::INFO] Success: NC(=O)C(=CCC1NCCC1O)OP(=O)(O)OP(=O)(O)OP(=O)(O)O
+[2024-01-15 05:01:47,015::sample::INFO] Success: NC(=O)C(=CCCC(N)C(=O)O)OP(=O)(O)OP(=O)(O)OP(=O)(O)O
+[2024-01-15 05:02:02,098::sample::INFO] Success: COC1OCC2OCCOP(=O)(O)OP(=O)(O)OP(=O)(O)OC1C2O
+[2024-01-15 05:02:13,318::sample::INFO] Success: NC(=O)N1CCC2=C(C1)CN(S(O)(O)O)C(=O)N2c1cccc(F)c1
+[2024-01-15 05:02:20,768::sample::WARNING] Duplicate molecule: NC(=O)C(=CCC1NCCC1O)OP(=O)(O)OP(=O)(O)OP(=O)(O)O
+[2024-01-15 05:02:46,968::sample::INFO] Success: NC(=O)N1CCC2=C(C1)CN(S(O)(O)O)C(=O)N2C1CCC(O)C1O
+[2024-01-15 05:04:35,871::sample::INFO] Success: NC(=O)C(=CCC1CCCCC1)OP(=O)(O)OP(=O)(O)OP(=O)(O)O
+[2024-01-15 05:04:50,572::sample::INFO] Success: NC(=O)C(=CCC1CCOCC1)OP(=O)(O)OP(=O)(O)OP(=O)(O)O
+[2024-01-15 05:05:20,639::sample::INFO] Success: O=C(O)C1OC2C(OC(C(O)CO)C2OP(=O)(O)OP(=O)(O)O)C1O
+[2024-01-15 05:07:05,517::sample::INFO] Success: NC(=O)N1CCC2=C(C1)CN(S(O)(O)O)C(=O)N2C1CCC(N)C1O
+[2024-01-15 05:07:09,106::sample::INFO] Success: O=C1COCC(=CC(O)=CCO)OP(=O)(O)OP(=O)(O)OCC(O)O1
+[2024-01-15 05:07:23,837::sample::INFO] Success: O=CNCCCCOP(=O)(O)OP(=O)(O)OCC(=O)NC(=O)C(=O)O
+[2024-01-15 05:07:50,011::sample::WARNING] Duplicate molecule: O=CNCCCCOP(=O)(O)OP(=O)(O)OCC(=O)NC(=O)C(=O)O
+[2024-01-15 05:08:19,563::sample::WARNING] Duplicate molecule: COC1OCC2OCCOP(=O)(O)OP(=O)(O)OP(=O)(O)OC1C2O
+[2024-01-15 05:08:52,966::sample::INFO] Success: NC(O)CC(OP(=O)(O)OP(=O)(O)O)C(=CC(=O)O)COP(=O)(O)O
+[2024-01-15 05:09:26,506::sample::WARNING] Duplicate molecule: COC1OCC2OCCOP(=O)(O)OP(=O)(O)OP(=O)(O)OC1C2O
+[2024-01-15 05:09:45,055::sample::INFO] Success: Cc1n[nH]c(NC2COC(C(O)CO)C2OP(=O)(O)OP(=O)(O)O)n1
+[2024-01-15 05:10:03,403::sample::WARNING] Duplicate molecule: NC(=O)N1CCC2=C(C1)CN(S(O)(O)O)C(=O)N2c1cccc(F)c1
+[2024-01-15 05:10:07,016::sample::WARNING] Duplicate molecule: O=C1COCC(=CC(O)=CCO)OP(=O)(O)OP(=O)(O)OCC(O)O1
+[2024-01-15 05:10:33,054::sample::WARNING] Duplicate molecule: O=C1COCC(=CC(O)=CCO)OP(=O)(O)OP(=O)(O)OCC(O)O1
+[2024-01-15 05:10:51,823::sample::WARNING] Duplicate molecule: NC(=O)N1CCC2=C(C1)CN(S(O)(O)O)C(=O)N2C1CCC(N)C1O
+[2024-01-15 05:10:55,438::sample::WARNING] Duplicate molecule: NC(=O)N1CCC2=C(C1)CN(S(O)(O)O)C(=O)N2c1cccc(F)c1
+[2024-01-15 05:11:28,710::sample::WARNING] Duplicate molecule: COC1OCC2OCCOP(=O)(O)OP(=O)(O)OP(=O)(O)OC1C2O
+[2024-01-15 05:11:43,377::sample::WARNING] Duplicate molecule: NC(=O)N1CCC2=C(C1)CN(S(O)(O)O)C(=O)N2C1CCC(N)C1O
+[2024-01-15 05:12:13,330::sample::WARNING] Duplicate molecule: NC(=O)N1CCC2=C(C1)CN(S(O)(O)O)C(=O)N2c1cccc(F)c1
+[2024-01-15 05:12:31,901::sample::INFO] Success: O=C(O)C=C(O)C=C1COCC(=O)OCCOP(=O)(O)OP(=O)(O)O1
+[2024-01-15 05:13:38,874::sample::WARNING] Duplicate molecule: NC(=O)N1CCC2=C(C1)CN(S(O)(O)O)C(=O)N2c1cccc(F)c1
+[2024-01-15 05:13:46,210::sample::INFO] Success: CC(CNCC(CCC(=O)O)C(O)OC(=O)COP(=O)(O)O)C(=O)O
+[2024-01-15 05:13:53,502::sample::INFO] Success: CC1=CCCC1CC=C(OP(=O)(O)OP(=O)(O)OP(=O)(O)O)C(N)=O
+[2024-01-15 05:14:00,948::sample::INFO] Success: COC(=O)C(CNC1=CC=CC1)OP(=O)(O)OP(=O)(O)OP(=O)(O)O
+[2024-01-15 05:14:30,688::sample::INFO] Success: O=C(O)OC1COP(=O)(O)OP(=O)(O)OP(=O)(O)OCC(O)OC1O
+[2024-01-15 05:14:52,715::sample::WARNING] Ignoring, because reconstruction error encountered.
+[2024-01-15 05:15:18,146::sample::INFO] Success: CC1CCC(N2C(=O)N(S(O)(O)O)CC3=C2CCN(C(N)=O)C3)C1O
+[2024-01-15 05:15:32,768::sample::INFO] Success: CC1CC(=O)C(=O)C1NC1c2ccc(OCCO)cc2NC(=O)C1O
+[2024-01-15 05:15:36,332::sample::WARNING] Duplicate molecule: COC1OCC2OCCOP(=O)(O)OP(=O)(O)OP(=O)(O)OC1C2O
+[2024-01-15 05:15:39,886::sample::INFO] Success: NC(=O)C=C(O)C=C1COCC(=O)OCCOP(=O)(O)OP(=O)(O)O1
+[2024-01-15 05:15:50,791::sample::WARNING] Ignoring, because reconstruction error encountered.
+[2024-01-15 05:16:46,459::sample::INFO] Success: NC(=O)C(=CC(O)C(O)C(O)O)OP(=O)(O)OP(=O)(O)OP(=O)(O)O
+[2024-01-15 05:16:57,237::sample::WARNING] Duplicate molecule: NC(=O)N1CCC2=C(C1)CN(S(O)(O)O)C(=O)N2c1cccc(F)c1
+[2024-01-15 05:17:04,396::sample::WARNING] Duplicate molecule: NC(=O)N1CCC2=C(C1)CN(S(O)(O)O)C(=O)N2C1CCC(N)C1O
+[2024-01-15 05:17:11,514::sample::INFO] Success: O=C(O)NC(=O)C1CCCC(OP(=O)(O)OP(=O)(O)OP(=O)(O)O)C1
+[2024-01-15 05:17:22,497::sample::WARNING] Duplicate molecule: NC(=O)C(=CCC1CCCCC1)OP(=O)(O)OP(=O)(O)OP(=O)(O)O
+[2024-01-15 05:17:44,482::sample::INFO] Success: O=C(C=CC=C(O)C(=CO)OP(=O)(O)OP(=O)(O)OP(=O)(O)O)NO
+[2024-01-15 05:18:57,639::sample::INFO] Success: CNC(=O)C(O)COC(COC(=O)CO)=C(O)C(O)COP(=O)(O)O
+[2024-01-15 05:19:26,891::sample::WARNING] Duplicate molecule: O=C1COCC(=CC(O)=CCO)OP(=O)(O)OP(=O)(O)OCC(O)O1
+[2024-01-15 05:19:55,700::sample::INFO] Success: O=P(O)(O)OP(=O)(O)OP(=O)(O)OC(CCO)C(O)C1COCCO1
+[2024-01-15 05:20:10,090::sample::INFO] [Pool] Queue 300 | Finished 201 | Failed 3
+[2024-01-15 05:20:22,498::sample::INFO] Success: O=P1(O)OCC(CO)OCC(=CC(O)=CCO)OP(=O)(O)OP(=O)(O)O1
+[2024-01-15 05:20:33,789::sample::INFO] Success: NC(=O)N1CCC2=C(C1)CN(S(O)(O)O)C(=O)N2C1CC(O)C(O)C1O
+[2024-01-15 05:21:03,542::sample::INFO] Success: COC(=O)C(CNC1=CCN(C)C1)OP(=O)(O)OP(=O)(O)OP(=O)(O)O
+[2024-01-15 05:21:07,183::sample::INFO] Success: Cc1cc(O)c(O)c(C(=O)Nc2cc(C(CO)NC(=O)O)ccc2O)c1
+[2024-01-15 05:21:18,551::sample::INFO] Success: CC1CC(N2C(=O)N(S(O)(O)O)CC3=C2CCN(C(N)=O)C3)C(O)C1O
+[2024-01-15 05:21:33,525::sample::INFO] Success: CC(=O)CC1CCC2OCCOP(=O)(O)OP(=O)(O)OP(=O)(O)ON=C12
+[2024-01-15 05:21:37,198::sample::INFO] Success: O=C(O)CNC(=O)NC1COC(C(O)CO)C1OP(=O)(O)OP(=O)(O)O
+[2024-01-15 05:22:11,049::sample::INFO] Success: O=C(CO)OCC(OCC1OCCNC1=O)=C(O)C(O)COP(=O)(O)O
+[2024-01-15 05:22:14,703::sample::INFO] Success: CC(C)NC(CO)CC=C(OP(=O)(O)OP(=O)(O)OP(=O)(O)O)C(N)=O
+[2024-01-15 05:22:18,333::sample::INFO] Success: O=C1COCC(=CC(O)=CCO)OP(=O)(O)OP(=O)(O)OP(=O)(O)CO1
+[2024-01-15 05:22:36,980::sample::WARNING] Duplicate molecule: Cc1cc(O)c(O)c(C(=O)Nc2cc(C(CO)NC(=O)O)ccc2O)c1
+[2024-01-15 05:22:51,713::sample::WARNING] Duplicate molecule: O=P1(O)OCC(CO)OCC(=CC(O)=CCO)OP(=O)(O)OP(=O)(O)O1
+[2024-01-15 05:23:02,837::sample::INFO] Success: O=C1OC(COC(COCCO)=C(O)C(O)COP(=O)(O)O)C(O)C1O
+[2024-01-15 05:23:24,951::sample::INFO] Success: O=C(O)CCC(CNCC1CCCC1O)C(O)OC(=O)COP(=O)(O)O
+[2024-01-15 05:23:28,567::sample::INFO] Success: NC(=O)N1CCC2=C(C1)CN(S(O)(O)O)C(=O)N2c1cc(F)cc(F)c1
+[2024-01-15 05:23:35,820::sample::INFO] Success: COC(=O)C1OCC(=O)NOP(=O)(O)OP(=O)(O)OP(=O)(O)OCC1O
+[2024-01-15 05:23:50,539::sample::INFO] Success: O=P1(O)OCCOC2COC3OCCC3(OP(=O)(O)OP(=O)(O)O1)C2O
+[2024-01-15 05:24:20,078::sample::WARNING] Duplicate molecule: O=C(O)CNC(=O)NC1COC(C(O)CO)C1OP(=O)(O)OP(=O)(O)O
+[2024-01-15 05:24:49,584::sample::INFO] Success: NC(=O)C(=CCC(O)C(O)C(=O)O)OP(=O)(O)OP(=O)(O)OP(=O)(O)O
+[2024-01-15 05:24:53,172::sample::WARNING] Duplicate molecule: O=C1COCC(=CC(O)=CCO)OP(=O)(O)OP(=O)(O)OP(=O)(O)CO1
+[2024-01-15 05:25:04,116::sample::WARNING] Duplicate molecule: NC(=O)N1CCC2=C(C1)CN(S(O)(O)O)C(=O)N2C1CC(O)C(O)C1O
+[2024-01-15 05:25:07,739::sample::INFO] Success: O=C(O)OC1C2OC(C(O)COP(=O)(O)OP(=O)(O)OP(=O)(O)O2)C1O
+[2024-01-15 05:25:11,303::sample::INFO] Success: O=C(O)C=C(O)C=C1COCC(=O)OC(O)COP(=O)(O)OP(=O)(O)O1
+[2024-01-15 05:25:22,396::sample::WARNING] Duplicate molecule: O=C(O)OC1C2OC(C(O)COP(=O)(O)OP(=O)(O)OP(=O)(O)O2)C1O
+[2024-01-15 05:25:44,348::sample::WARNING] Duplicate molecule: NC(=O)N1CCC2=C(C1)CN(S(O)(O)O)C(=O)N2C1CC(O)C(O)C1O
+[2024-01-15 05:25:47,880::sample::WARNING] Duplicate molecule: NC(=O)N1CCC2=C(C1)CN(S(O)(O)O)C(=O)N2C1CC(O)C(O)C1O
+[2024-01-15 05:25:58,745::sample::INFO] Success: CC1(C)CC(O)C(N2C(=O)N(S(O)(O)O)CC3=C2CCN(C(N)=O)C3)C1
+[2024-01-15 05:26:09,758::sample::INFO] Success: CC1CC(C)(O)C(=O)C1NC1c2ccc(OCCO)cc2NC(=O)C1O
+[2024-01-15 05:26:28,218::sample::WARNING] Ignoring, because reconstruction error encountered.
+[2024-01-15 05:26:54,034::sample::INFO] Success: O=P(O)(O)OP(=O)(O)OP(=O)(O)OC(=CC(O)=CO)C1OCC(CO)O1
+[2024-01-15 05:26:57,634::sample::INFO] Success: CC1NCCCC1CC=C(OP(=O)(O)OP(=O)(O)OP(=O)(O)O)C(N)=O
+[2024-01-15 05:27:08,602::sample::WARNING] Duplicate molecule: O=C(O)C=C(O)C=C1COCC(=O)OC(O)COP(=O)(O)OP(=O)(O)O1
+[2024-01-15 05:27:12,172::sample::WARNING] Duplicate molecule: NC(=O)N1CCC2=C(C1)CN(S(O)(O)O)C(=O)N2c1cc(F)cc(F)c1
+[2024-01-15 05:27:15,714::sample::INFO] Success: CC(=O)NC(CO)CC=C(OP(=O)(O)OP(=O)(O)OP(=O)(O)O)C(N)=O
+[2024-01-15 05:27:26,670::sample::INFO] Success: NC(=O)C(=CCC1NCC(O)C1O)OP(=O)(O)OP(=O)(O)OP(=O)(O)O
+[2024-01-15 05:27:37,637::sample::WARNING] Duplicate molecule: COC(=O)C1OCC(=O)NOP(=O)(O)OP(=O)(O)OP(=O)(O)OCC1O
+[2024-01-15 05:27:41,215::sample::WARNING] Duplicate molecule: O=C1COCC(=CC(O)=CCO)OP(=O)(O)OP(=O)(O)OP(=O)(O)CO1
+[2024-01-15 05:28:06,698::sample::INFO] Success: COCC(OCC(O)CO)C(O)COP(=O)(O)OP(=O)(O)OP(=O)(O)O
+[2024-01-15 05:28:24,894::sample::INFO] Success: CC1COP(=O)(O)OP(=O)(O)OP(=O)(O)OC2COC(OCCO)(C1)C2
+[2024-01-15 05:28:43,234::sample::WARNING] Duplicate molecule: O=C1COCC(=CC(O)=CCO)OP(=O)(O)OP(=O)(O)OP(=O)(O)CO1
+[2024-01-15 05:28:54,176::sample::WARNING] Duplicate molecule: COC(=O)C1OCC(=O)NOP(=O)(O)OP(=O)(O)OP(=O)(O)OCC1O
+[2024-01-15 05:29:01,503::sample::INFO] Success: O=P(O)(O)OCC(O)C(O)=C(COCCO)OCC1OC(O)C(O)C1O
+[2024-01-15 05:29:05,113::sample::INFO] Success: O=C(O)COC1OC2C(OP(=O)(O)OP(=O)(O)O)C(CCO)OC2C1O
+[2024-01-15 05:29:08,688::sample::INFO] Success: O=C(O)N=CC1CC(OP(=O)(O)OP(=O)(O)O)OC(C2CCN=CN2)C1
+[2024-01-15 05:29:15,995::sample::WARNING] Duplicate molecule: O=C(O)COC1OC2C(OP(=O)(O)OP(=O)(O)O)C(CCO)OC2C1O
+[2024-01-15 05:29:23,219::sample::WARNING] Duplicate molecule: O=C(O)CCC(CNCC1CCCC1O)C(O)OC(=O)COP(=O)(O)O
+[2024-01-15 05:29:26,789::sample::WARNING] Duplicate molecule: O=C(O)COC1OC2C(OP(=O)(O)OP(=O)(O)O)C(CCO)OC2C1O
+[2024-01-15 05:29:45,088::sample::WARNING] Duplicate molecule: O=C(O)CNC(=O)NC1COC(C(O)CO)C1OP(=O)(O)OP(=O)(O)O
+[2024-01-15 05:30:28,866::sample::WARNING] Duplicate molecule: NC(=O)N1CCC2=C(C1)CN(S(O)(O)O)C(=O)N2c1cc(F)cc(F)c1
+[2024-01-15 05:30:50,740::sample::WARNING] Duplicate molecule: NC(=O)C(=CCC1NCC(O)C1O)OP(=O)(O)OP(=O)(O)OP(=O)(O)O
+[2024-01-15 05:31:01,721::sample::WARNING] Ignoring, because reconstruction error encountered.
+[2024-01-15 05:31:23,577::sample::WARNING] Duplicate molecule: O=C(O)COC1OC2C(OP(=O)(O)OP(=O)(O)O)C(CCO)OC2C1O
+[2024-01-15 05:31:30,703::sample::WARNING] Duplicate molecule: O=C1COCC(=CC(O)=CCO)OP(=O)(O)OP(=O)(O)OP(=O)(O)CO1
+[2024-01-15 05:31:41,581::sample::INFO] Success: O=C(O)CC(OP(=O)(O)OP(=O)(O)OP(=O)(O)O)C(O)C1COCCO1
+[2024-01-15 05:32:25,389::sample::INFO] Success: COC(=O)C(CNc1ccccc1)OP(=O)(O)OP(=O)(O)OP(=O)(O)O
+[2024-01-15 05:32:39,863::sample::INFO] Success: CC1(O)CC(O)C(N2C(=O)N(S(O)(O)O)CC3=C2CCN(C(N)=O)C3)C1
+[2024-01-15 05:32:47,080::sample::WARNING] Duplicate molecule: COC(=O)C(CNc1ccccc1)OP(=O)(O)OP(=O)(O)OP(=O)(O)O
+[2024-01-15 05:32:50,621::sample::WARNING] Duplicate molecule: O=C(O)CNC(=O)NC1COC(C(O)CO)C1OP(=O)(O)OP(=O)(O)O
+[2024-01-15 05:32:57,851::sample::INFO] Success: CC1CCCCC1CC=C(OP(=O)(O)OP(=O)(O)OP(=O)(O)O)C(N)=O
+[2024-01-15 05:33:15,871::sample::INFO] Success: Cn1[nH]c(NC2COC(C(O)CO)C2OP(=O)(O)OP(=O)(O)O)nc1=O
+[2024-01-15 05:33:22,943::sample::WARNING] Duplicate molecule: O=C1COCC(=CC(O)=CCO)OP(=O)(O)OP(=O)(O)OP(=O)(O)CO1
+[2024-01-15 05:33:30,028::sample::WARNING] Duplicate molecule: CC1CCCCC1CC=C(OP(=O)(O)OP(=O)(O)OP(=O)(O)O)C(N)=O
+[2024-01-15 05:34:05,960::sample::INFO] Success: CCC1C(=O)OCC(O)OCCC(C(=O)O)CN1C(=O)CCNC(N)=O
+[2024-01-15 05:34:13,093::sample::INFO] Success: CC1COCCC1CC=C(OP(=O)(O)OP(=O)(O)OP(=O)(O)O)C(N)=O
+[2024-01-15 05:34:16,642::sample::INFO] Success: CCNC(CC=C(OP(=O)(O)OP(=O)(O)OP(=O)(O)O)C(N)=O)C(=O)O
+[2024-01-15 05:34:34,496::sample::WARNING] Duplicate molecule: O=C(O)CCC(CNCC1CCCC1O)C(O)OC(=O)COP(=O)(O)O
+[2024-01-15 05:34:38,083::sample::INFO] Success: Cn1c2c3c(nc1=O)NCC(OC(C)(F)F)N(C=COP(=O)(O)OC2)C3
+[2024-01-15 05:34:48,920::sample::WARNING] Duplicate molecule: NC(=O)N1CCC2=C(C1)CN(S(O)(O)O)C(=O)N2C1CC(O)C(O)C1O
+[2024-01-15 05:35:03,304::sample::WARNING] Duplicate molecule: O=P1(O)OCC(CO)OCC(=CC(O)=CCO)OP(=O)(O)OP(=O)(O)O1
+[2024-01-15 05:35:06,838::sample::WARNING] Ignoring, because reconstruction error encountered.
+[2024-01-15 05:35:28,777::sample::INFO] Success: O=CNC(COP(=O)(O)OP(=O)(O)OP(=O)(O)O)C1CC(O)C(O)CO1
+[2024-01-15 05:35:32,331::sample::WARNING] Duplicate molecule: O=C1COCC(=CC(O)=CCO)OP(=O)(O)OP(=O)(O)OP(=O)(O)CO1
+[2024-01-15 05:35:43,189::sample::INFO] Success: NC(=O)C(=CCC1NCCCC1O)OP(=O)(O)OP(=O)(O)OP(=O)(O)O
+[2024-01-15 05:35:46,695::sample::WARNING] Duplicate molecule: COC(=O)C(CNc1ccccc1)OP(=O)(O)OP(=O)(O)OP(=O)(O)O
+[2024-01-15 05:35:50,165::sample::WARNING] Duplicate molecule: O=C(O)OC1C2OC(C(O)COP(=O)(O)OP(=O)(O)OP(=O)(O)O2)C1O
+[2024-01-15 05:36:04,388::sample::WARNING] Duplicate molecule: CCNC(CC=C(OP(=O)(O)OP(=O)(O)OP(=O)(O)O)C(N)=O)C(=O)O
+[2024-01-15 05:36:18,719::sample::WARNING] Duplicate molecule: CC1COCCC1CC=C(OP(=O)(O)OP(=O)(O)OP(=O)(O)O)C(N)=O
+[2024-01-15 05:36:22,172::sample::WARNING] Duplicate molecule: CCC1C(=O)OCC(O)OCCC(C(=O)O)CN1C(=O)CCNC(N)=O
+[2024-01-15 05:36:29,197::sample::WARNING] Duplicate molecule: COC(=O)C(CNC1=CCN(C)C1)OP(=O)(O)OP(=O)(O)OP(=O)(O)O
+[2024-01-15 05:36:36,295::sample::WARNING] Duplicate molecule: O=P(O)(O)OCC(O)C(O)=C(COCCO)OCC1OC(O)C(O)C1O
+[2024-01-15 05:36:39,824::sample::WARNING] Ignoring, because reconstruction error encountered.
+[2024-01-15 05:37:19,339::sample::INFO] Success: Cn1c2c3c(nc1=O)NCC(OC(F)CO)N(C=COP(=O)(O)OC2)C3
+[2024-01-15 05:37:22,870::sample::INFO] Success: COCCOCC(O)C(CC(=O)O)OP(=O)(O)OP(=O)(O)OP(=O)(O)O
+[2024-01-15 05:38:09,259::sample::WARNING] Duplicate molecule: O=C1COCC(=CC(O)=CCO)OP(=O)(O)OP(=O)(O)OP(=O)(O)CO1
+[2024-01-15 05:38:12,746::sample::INFO] Success: CN1CCCCC1CC=C(OP(=O)(O)OP(=O)(O)OP(=O)(O)O)C(N)=O
+[2024-01-15 05:38:19,741::sample::WARNING] Duplicate molecule: NC(=O)C(=CCC(O)C(O)C(=O)O)OP(=O)(O)OP(=O)(O)OP(=O)(O)O
+[2024-01-15 05:38:23,245::sample::INFO] Success: COCC1OC(CO)C(O)C(OP(=O)(O)OP(=O)(O)OP(=O)(O)O)C1O
+[2024-01-15 05:38:23,253::sample::INFO] [Pool] Queue 300 | Finished 245 | Failed 7
+[2024-01-15 05:38:43,521::sample::INFO] Success: NC(O)CC(OP(=O)(O)OP(=O)(O)O)C(=CC=CC(=O)O)COP(=O)(O)O
+[2024-01-15 05:38:47,203::sample::INFO] Success: CNCC1=CSC(=C(CC(=O)NO)OP(=O)(O)OP(=O)(O)OP(=O)(O)O)C1
+[2024-01-15 05:38:58,379::sample::INFO] Success: NC(=O)OC(CO)C(O)=C(CC(=O)O)OP(=O)(O)OP(=O)(O)OP(=O)(O)O
+[2024-01-15 05:39:09,552::sample::WARNING] Duplicate molecule: CNCC1=CSC(=C(CC(=O)NO)OP(=O)(O)OP(=O)(O)OP(=O)(O)O)C1
+[2024-01-15 05:39:50,762::sample::INFO] Success: O=P(O)(O)OP(=O)(O)OP(=O)(O)OC1C(O)C(CO)OC1n1cncc1O
+[2024-01-15 05:40:02,002::sample::WARNING] Duplicate molecule: NC(O)CC(OP(=O)(O)OP(=O)(O)O)C(=CC=CC(=O)O)COP(=O)(O)O
+[2024-01-15 05:40:05,672::sample::INFO] Success: Cn1nc(C(CC(=O)O)C2=Nc3c(cccc3-c3ccccc3)C2)[nH]c1=O
+[2024-01-15 05:40:09,359::sample::INFO] Success: CCCCNc1ccc(C(=O)O)cc1OP(=O)(O)OP(=O)(O)OP(=O)(O)O
+[2024-01-15 05:40:28,243::sample::INFO] Success: O=C(O)CC(OP(=O)(O)OP(=O)(O)OP(=O)(O)O)=C(O)C(CO)OC(=O)O
+[2024-01-15 05:40:35,706::sample::WARNING] Duplicate molecule: NC(=O)OC(CO)C(O)=C(CC(=O)O)OP(=O)(O)OP(=O)(O)OP(=O)(O)O
+[2024-01-15 05:40:46,839::sample::INFO] Success: CC=CCCC1CCC2OCCOP(=O)(O)OP(=O)(O)OP(=O)(O)OCC12
+[2024-01-15 05:40:58,032::sample::INFO] Success: COC1C(=O)C2OCC(=O)C(=O)C(O)C3OC(C=CC(=O)O)CC(=C1O)N23
+[2024-01-15 05:41:05,478::sample::INFO] Success: COCOC(CO)C(O)=C(CC(=O)O)OP(=O)(O)OP(=O)(O)OP(=O)(O)O
+[2024-01-15 05:41:20,510::sample::INFO] Success: COC1=CCC(CNC=O)CCOP(=O)(O)OP(=O)(O)OCC(=O)NC1=O
+[2024-01-15 05:41:27,788::sample::INFO] Success: CC=C(C=C1COC(CO)COP(=O)(O)OP(=O)(O)OP(=O)(O)O1)C(=O)O
+[2024-01-15 05:42:16,152::sample::WARNING] Duplicate molecule: NC(O)CC(OP(=O)(O)OP(=O)(O)O)C(=CC=CC(=O)O)COP(=O)(O)O
+[2024-01-15 05:42:34,334::sample::WARNING] Ignoring, because reconstruction error encountered.
+[2024-01-15 05:42:52,745::sample::WARNING] Duplicate molecule: NC(=O)OC(CO)C(O)=C(CC(=O)O)OP(=O)(O)OP(=O)(O)OP(=O)(O)O
+[2024-01-15 05:43:03,749::sample::INFO] Success: O=C(O)COC1OC2C(OC(C(O)CO)C2OP(=O)(O)OP(=O)(O)O)C1O
+[2024-01-15 05:43:30,080::sample::INFO] Success: O=C(CO)OCC(OCC1OC(O)C(O)C1O)=C(O)C(O)COP(=O)(O)O
+[2024-01-15 05:44:19,074::sample::INFO] Success: NC(=O)CCC1CCC2OCCOP(=O)(O)OP(=O)(O)OP(=O)(O)ON=C12
+[2024-01-15 05:44:34,079::sample::WARNING] Duplicate molecule: NC(=O)OC(CO)C(O)=C(CC(=O)O)OP(=O)(O)OP(=O)(O)OP(=O)(O)O
+[2024-01-15 05:44:37,716::sample::WARNING] Ignoring, because reconstruction error encountered.
+[2024-01-15 05:44:41,332::sample::INFO] Success: CNC(=O)NCC1CC(C2=NC(=N)NC2)CC(OP(=O)(O)OP(=O)(O)O)O1
+[2024-01-15 05:44:48,809::sample::INFO] Success: C=CCC(C(=O)OP(=O)(O)O)N(CCOP(=O)(O)O)C(=O)CCNC(N)=O
+[2024-01-15 05:44:56,160::sample::INFO] Success: O=P1(O)OCC(CO)C(O)C(O)C(OCCO)COP(=O)(O)OP(=O)(O)O1
+[2024-01-15 05:45:25,969::sample::INFO] Success: CCCC(C(=O)OP(=O)(O)O)N(CCOP(=O)(O)O)C(=O)CCNC(N)=O
+[2024-01-15 05:45:29,592::sample::WARNING] Duplicate molecule: Cn1nc(C(CC(=O)O)C2=Nc3c(cccc3-c3ccccc3)C2)[nH]c1=O
+[2024-01-15 05:45:33,261::sample::INFO] Success: O=P1(O)OCC(CO)OCC(=CC(O)=C(O)CO)OP(=O)(O)OP(=O)(O)O1
+[2024-01-15 05:45:59,295::sample::WARNING] Ignoring, because reconstruction error encountered.
+[2024-01-15 05:46:06,593::sample::WARNING] Duplicate molecule: CCCCNc1ccc(C(=O)O)cc1OP(=O)(O)OP(=O)(O)OP(=O)(O)O
+[2024-01-15 05:46:36,770::sample::WARNING] Duplicate molecule: O=P1(O)OCC(CO)OCC(=CC(O)=C(O)CO)OP(=O)(O)OP(=O)(O)O1
+[2024-01-15 05:46:55,486::sample::INFO] Success: O=C(O)N=CC1CC(OP(=O)(O)OP(=O)(O)O)OC2C3NC=NCC3OC12
+[2024-01-15 05:46:58,989::sample::INFO] Success: CCC(=O)OC1OC2C(OC(C(O)CO)C2OP(=O)(O)OP(=O)(O)O)C1O
+[2024-01-15 05:47:57,456::sample::INFO] Success: O=C(O)OC1COP(=O)(O)OP(=O)(O)OP(=O)(O)OCC2OC1C(O)C2O
+[2024-01-15 05:48:15,644::sample::WARNING] Duplicate molecule: O=P1(O)OCC(CO)OCC(=CC(O)=C(O)CO)OP(=O)(O)OP(=O)(O)O1
+[2024-01-15 05:48:37,305::sample::WARNING] Duplicate molecule: O=C(O)COC1OC2C(OC(C(O)CO)C2OP(=O)(O)OP(=O)(O)O)C1O
+[2024-01-15 05:48:44,529::sample::INFO] Success: O=C(O)OC1C2OC(C(CO)COP(=O)(O)OP(=O)(O)OP(=O)(O)O2)C1O
+[2024-01-15 05:48:55,633::sample::WARNING] Duplicate molecule: O=C(O)OC1C2OC(C(CO)COP(=O)(O)OP(=O)(O)OP(=O)(O)O2)C1O
+[2024-01-15 05:49:42,926::sample::INFO] Success: CC(O)=C(O)C=C(COC(CO)CO)OP(=O)(O)OP(=O)(O)OP(=O)(O)O
+[2024-01-15 05:49:53,871::sample::WARNING] Duplicate molecule: Cn1nc(C(CC(=O)O)C2=Nc3c(cccc3-c3ccccc3)C2)[nH]c1=O
+[2024-01-15 05:49:57,371::sample::WARNING] Duplicate molecule: O=P1(O)OCC(CO)OCC(=CC(O)=C(O)CO)OP(=O)(O)OP(=O)(O)O1
+[2024-01-15 05:50:00,933::sample::WARNING] Duplicate molecule: O=C(CO)OCC(OCC1OC(O)C(O)C1O)=C(O)C(O)COP(=O)(O)O
+[2024-01-15 05:50:11,740::sample::INFO] Success: CCCCNc1ccc(C(N)=O)cc1OP(=O)(O)OP(=O)(O)OP(=O)(O)O
+[2024-01-15 05:50:33,669::sample::INFO] Success: O=CNCCCCOP(=O)(O)OP(=O)(O)OCC(=O)N1CC(=O)NC(=O)C1
+[2024-01-15 05:51:17,544::sample::WARNING] Duplicate molecule: O=C(O)OC1COP(=O)(O)OP(=O)(O)OP(=O)(O)OCC2OC1C(O)C2O
+[2024-01-15 05:52:04,454::sample::INFO] Success: COC1C(=O)C2OCC(=O)C(O)C(O)C3OC(C=CC(=O)O)CC(=C1O)N23
+[2024-01-15 05:52:07,930::sample::INFO] Success: O=C(CO)OC1OC2C(OC(C(O)CO)C2OP(=O)(O)OP(=O)(O)O)C1O
+[2024-01-15 05:52:29,554::sample::WARNING] Duplicate molecule: Cn1nc(C(CC(=O)O)C2=Nc3c(cccc3-c3ccccc3)C2)[nH]c1=O
+[2024-01-15 05:52:33,078::sample::WARNING] Duplicate molecule: O=P1(O)OCC(CO)OCC(=CC(O)=C(O)CO)OP(=O)(O)OP(=O)(O)O1
+[2024-01-15 05:53:05,598::sample::INFO] Success: O=P(O)(O)OP(=O)(O)OP(=O)(O)OC(CCO)C(O)C1CNCC(CO)O1
+[2024-01-15 05:53:16,497::sample::WARNING] Duplicate molecule: O=C(CO)OCC(OCC1OC(O)C(O)C1O)=C(O)C(O)COP(=O)(O)O
+[2024-01-15 05:53:34,669::sample::INFO] Success: O=P1(O)OCOCC(CO)OCC(=CC(O)=CO)OP(=O)(O)OP(=O)(O)O1
+[2024-01-15 05:53:38,148::sample::WARNING] Duplicate molecule: Cn1nc(C(CC(=O)O)C2=Nc3c(cccc3-c3ccccc3)C2)[nH]c1=O
+[2024-01-15 05:53:45,219::sample::WARNING] Duplicate molecule: O=C(O)OC1C2OC(C(CO)COP(=O)(O)OP(=O)(O)OP(=O)(O)O2)C1O
+[2024-01-15 05:53:56,077::sample::INFO] Success: O=C(CO)OCC(OCC1OC(=O)C(O)C1O)=C(O)C(O)COP(=O)(O)O
+[2024-01-15 05:54:03,172::sample::INFO] Success: CC(=O)NC(=O)N=C(N)NC1CC2OCOC2C1OP(=O)(O)OP(=O)(O)O
+[2024-01-15 05:54:06,672::sample::WARNING] Duplicate molecule: O=C(O)N=CC1CC(OP(=O)(O)OP(=O)(O)O)OC2C3NC=NCC3OC12
+[2024-01-15 05:54:10,165::sample::WARNING] Duplicate molecule: COC1C(=O)C2OCC(=O)C(O)C(O)C3OC(C=CC(=O)O)CC(=C1O)N23
+[2024-01-15 05:54:24,529::sample::WARNING] Duplicate molecule: Cn1nc(C(CC(=O)O)C2=Nc3c(cccc3-c3ccccc3)C2)[nH]c1=O
+[2024-01-15 05:54:28,022::sample::WARNING] Duplicate molecule: O=C(O)OC1COP(=O)(O)OP(=O)(O)OP(=O)(O)OCC2OC1C(O)C2O
+[2024-01-15 05:54:53,202::sample::WARNING] Duplicate molecule: O=C(O)OC1C2OC(C(CO)COP(=O)(O)OP(=O)(O)OP(=O)(O)O2)C1O
+[2024-01-15 05:55:00,222::sample::WARNING] Duplicate molecule: O=CNCCCCOP(=O)(O)OP(=O)(O)OCC(=O)N1CC(=O)NC(=O)C1
+[2024-01-15 05:55:03,776::sample::WARNING] Duplicate molecule: COC1C(=O)C2OCC(=O)C(=O)C(O)C3OC(C=CC(=O)O)CC(=C1O)N23
+[2024-01-15 05:55:10,899::sample::WARNING] Duplicate molecule: C=CCC(C(=O)OP(=O)(O)O)N(CCOP(=O)(O)O)C(=O)CCNC(N)=O
+[2024-01-15 05:55:32,640::sample::WARNING] Duplicate molecule: NC(=O)CCC1CCC2OCCOP(=O)(O)OP(=O)(O)OP(=O)(O)ON=C12
+[2024-01-15 05:55:43,488::sample::WARNING] Duplicate molecule: O=C(O)OC1C2OC(C(CO)COP(=O)(O)OP(=O)(O)OP(=O)(O)O2)C1O
+[2024-01-15 05:56:27,430::sample::WARNING] Duplicate molecule: O=C(O)OC1COP(=O)(O)OP(=O)(O)OP(=O)(O)OCC2OC1C(O)C2O
+[2024-01-15 05:56:34,626::sample::WARNING] Duplicate molecule: O=C(O)OC1COP(=O)(O)OP(=O)(O)OP(=O)(O)OCC2OC1C(O)C2O
+[2024-01-15 05:56:45,508::sample::INFO] [Pool] Queue 300 | Finished 278 | Failed 10
+[2024-01-15 05:57:25,504::sample::INFO] Success: CC(C)CC(C(=O)OP(=O)(O)O)N(CCOP(=O)(O)O)C(=O)CCNC(N)=O
+[2024-01-15 05:57:59,381::sample::INFO] Success: CNCC1=CC=CC(=C(CC(=O)NO)OP(=O)(O)OP(=O)(O)OP(=O)(O)O)C1
+[2024-01-15 05:58:03,034::sample::INFO] Success: O=P(O)(O)OP(=O)(O)OP(=O)(O)OC(CCO)=C(O)C1OC(CO)C(O)C1O
+[2024-01-15 05:58:37,135::sample::INFO] Success: O=C(O)COC(COP(=O)(O)O)C(OP(=O)(O)OP(=O)(O)O)C1CCNC1O
+[2024-01-15 05:58:40,758::sample::INFO] Success: COC(=O)C(CNc1cccc(C)c1O)OP(=O)(O)OP(=O)(O)OP(=O)(O)O
+[2024-01-15 05:58:44,471::sample::INFO] Success: NC(=O)C(=CCC1OC(CO)C(O)C1O)OP(=O)(O)OP(=O)(O)OP(=O)(O)O
+[2024-01-15 05:58:55,578::sample::INFO] Success: O=C(O)C(=O)OCC(OCC1OC(O)C(O)C1O)=C(O)C(O)COP(=O)(O)O
+[2024-01-15 05:58:59,202::sample::INFO] Success: O=P1(O)OCC(CO)OCC(=Cc2ccccc2O)OP(=O)(O)OP(=O)(O)O1
+[2024-01-15 05:59:36,513::sample::WARNING] Duplicate molecule: O=P1(O)OCC(CO)OCC(=Cc2ccccc2O)OP(=O)(O)OP(=O)(O)O1
+[2024-01-15 06:00:06,318::sample::INFO] Success: O=C1CC2OC(C(=O)O)=NCCOP(=O)(O)OP(=O)(OP(=O)(O)O)OC2CO1
+[2024-01-15 06:00:28,623::sample::INFO] Success: Cc1cc(O)c(O)c(C(=O)Nc2cc(C(CO)NC(=O)C(=O)O)ccc2O)c1
+[2024-01-15 06:00:50,744::sample::INFO] Success: O=C1CC(O)OCC(CO)OCC(=CC(O)=CO)OP(=O)(O)OP(=O)(O)ON1
+[2024-01-15 06:00:54,400::sample::WARNING] Duplicate molecule: O=C1CC2OC(C(=O)O)=NCCOP(=O)(O)OP(=O)(OP(=O)(O)O)OC2CO1
+[2024-01-15 06:00:57,942::sample::WARNING] Duplicate molecule: CC(C)CC(C(=O)OP(=O)(O)O)N(CCOP(=O)(O)O)C(=O)CCNC(N)=O
+[2024-01-15 06:01:23,540::sample::WARNING] Duplicate molecule: Cc1cc(O)c(O)c(C(=O)Nc2cc(C(CO)NC(=O)C(=O)O)ccc2O)c1
+[2024-01-15 06:01:30,738::sample::WARNING] Duplicate molecule: O=C(O)C(=O)OCC(OCC1OC(O)C(O)C1O)=C(O)C(O)COP(=O)(O)O
+[2024-01-15 06:01:49,007::sample::WARNING] Duplicate molecule: COC(=O)C(CNc1cccc(C)c1O)OP(=O)(O)OP(=O)(O)OP(=O)(O)O
+[2024-01-15 06:02:14,854::sample::WARNING] Duplicate molecule: O=C(O)COC(COP(=O)(O)O)C(OP(=O)(O)OP(=O)(O)O)C1CCNC1O
+[2024-01-15 06:02:36,592::sample::WARNING] Duplicate molecule: COC(=O)C(CNc1cccc(C)c1O)OP(=O)(O)OP(=O)(O)OP(=O)(O)O
+[2024-01-15 06:02:54,845::sample::WARNING] Ignoring, because reconstruction error encountered.
+[2024-01-15 06:03:05,689::sample::INFO] Success: O=C(O)OC(COP(=O)(O)OP(=O)(O)OP(=O)(O)O)C1CC2OC(=O)CC2O1
+[2024-01-15 06:03:45,933::sample::INFO] Success: O=C(O)C(=O)OCC(OCC1OC(=O)C(O)C1O)=C(O)C(O)COP(=O)(O)O
+[2024-01-15 06:03:49,421::sample::INFO] Success: Cn1nc(C(CC(=O)O)C2=Nc3c(cc(F)cc3-c3ccccc3)C2)[nH]c1=O
+[2024-01-15 06:03:52,957::sample::WARNING] Duplicate molecule: COC(=O)C(CNc1cccc(C)c1O)OP(=O)(O)OP(=O)(O)OP(=O)(O)O
+[2024-01-15 06:04:29,194::sample::WARNING] Duplicate molecule: O=P1(O)OCC(CO)OCC(=Cc2ccccc2O)OP(=O)(O)OP(=O)(O)O1
+[2024-01-15 06:05:01,723::sample::INFO] Success: NC(O)CC(OP(=O)(O)OP(=O)(O)O)C(=CC(=O)OCC=O)COP(=O)(O)O
+[2024-01-15 06:05:16,330::sample::WARNING] Duplicate molecule: Cc1cc(O)c(O)c(C(=O)Nc2cc(C(CO)NC(=O)C(=O)O)ccc2O)c1
+[2024-01-15 06:05:34,271::sample::WARNING] Duplicate molecule: O=P1(O)OCC(CO)OCC(=Cc2ccccc2O)OP(=O)(O)OP(=O)(O)O1
+[2024-01-15 06:05:52,371::sample::WARNING] Duplicate molecule: Cc1cc(O)c(O)c(C(=O)Nc2cc(C(CO)NC(=O)C(=O)O)ccc2O)c1
+[2024-01-15 06:06:18,079::sample::INFO] Success: COC1=CCNC(CCNC=O)COP(=O)(O)OP(=O)(O)OCC(=O)NC1=O
+[2024-01-15 06:06:32,543::sample::WARNING] Duplicate molecule: CC(C)CC(C(=O)OP(=O)(O)O)N(CCOP(=O)(O)O)C(=O)CCNC(N)=O
+[2024-01-15 06:06:36,051::sample::INFO] Success: O=P(O)(O)OCC(OCCCO)C(OP(=O)(O)OP(=O)(O)O)C1CCNC1O
+[2024-01-15 06:06:39,556::sample::INFO] Success: O=C(O)OC1COP(=O)(O)OP(=O)(O)OP(=O)(O)OC2CC3OC1C(O)C3O2
+[2024-01-15 06:06:43,120::sample::WARNING] Duplicate molecule: O=P(O)(O)OP(=O)(O)OP(=O)(O)OC(CCO)=C(O)C1OC(CO)C(O)C1O
+[2024-01-15 06:07:01,156::sample::WARNING] Duplicate molecule: NC(=O)C(=CCC1OC(CO)C(O)C1O)OP(=O)(O)OP(=O)(O)OP(=O)(O)O
+[2024-01-15 06:07:11,826::sample::INFO] Success: COC(=O)CCC1CCC2OCCOP(=O)(O)OP(=O)(O)OP(=O)(O)ON=C12
+[2024-01-15 06:07:15,314::sample::WARNING] Duplicate molecule: O=C(O)C(=O)OCC(OCC1OC(O)C(O)C1O)=C(O)C(O)COP(=O)(O)O
+[2024-01-15 06:08:23,455::sample::WARNING] Duplicate molecule: O=P(O)(O)OP(=O)(O)OP(=O)(O)OC(CCO)=C(O)C1OC(CO)C(O)C1O
+[2024-01-15 06:08:37,811::sample::INFO] Success: CC=CC1C(O)C(OC(C)C)CC(OP(=O)(O)OP(=O)(O)OP(=O)(O)O)C1O
+[2024-01-15 06:09:03,052::sample::INFO] Success: COC(=O)OC(COP(=O)(O)O)C(OP(=O)(O)OP(=O)(O)O)C1CCNC1O
+[2024-01-15 06:09:17,550::sample::INFO] Success: O=P(O)(O)OCC1OC2C(OC(C(O)CO)C2OP(=O)(O)OP(=O)(O)O)C1O
+[2024-01-15 06:09:28,309::sample::INFO] Success: NC(=O)C(=CCC1NC(CO)C(O)C1O)OP(=O)(O)OP(=O)(O)OP(=O)(O)O
+[2024-01-15 06:09:49,600::sample::WARNING] Duplicate molecule: O=P1(O)OCC(CO)OCC(=Cc2ccccc2O)OP(=O)(O)OP(=O)(O)O1
+[2024-01-15 06:10:14,720::sample::WARNING] Duplicate molecule: O=C(O)COC(COP(=O)(O)O)C(OP(=O)(O)OP(=O)(O)O)C1CCNC1O
+[2024-01-15 06:10:21,771::sample::INFO] Success: O=P1(O)OC(=CC(O)=C(O)CO)COC(CO)C(O)OP(=O)(O)OP(=O)(O)O1
+[2024-01-15 06:10:32,527::sample::WARNING] Duplicate molecule: O=P(O)(O)OP(=O)(O)OP(=O)(O)OC(CCO)=C(O)C1OC(CO)C(O)C1O
+[2024-01-15 06:10:36,020::sample::WARNING] Duplicate molecule: CC=CC1C(O)C(OC(C)C)CC(OP(=O)(O)OP(=O)(O)OP(=O)(O)O)C1O
+[2024-01-15 06:10:46,785::sample::WARNING] Duplicate molecule: O=P1(O)OC(=CC(O)=C(O)CO)COC(CO)C(O)OP(=O)(O)OP(=O)(O)O1
+[2024-01-15 06:11:08,226::sample::INFO] Success: CN(C)C1OC(C(COP(=O)(O)OP(=O)(O)OP(=O)(O)O)OC(=O)O)CC1O
+[2024-01-15 06:11:15,260::sample::WARNING] Duplicate molecule: O=P(O)(O)OCC1OC2C(OC(C(O)CO)C2OP(=O)(O)OP(=O)(O)O)C1O
+[2024-01-15 06:11:18,766::sample::WARNING] Duplicate molecule: O=C(O)COC(COP(=O)(O)O)C(OP(=O)(O)OP(=O)(O)O)C1CCNC1O
+[2024-01-15 06:11:36,666::sample::WARNING] Duplicate molecule: O=P1(O)OCC(CO)OCC(=Cc2ccccc2O)OP(=O)(O)OP(=O)(O)O1
+[2024-01-15 06:11:58,422::sample::WARNING] Duplicate molecule: NC(=O)C(=CCC1NC(CO)C(O)C1O)OP(=O)(O)OP(=O)(O)OP(=O)(O)O
+[2024-01-15 06:12:05,523::sample::INFO] Success: O=C(O)c1ccc(NCC(O)CO)c(OP(=O)(O)OP(=O)(O)OP(=O)(O)O)c1
+[2024-01-15 06:12:30,639::sample::INFO] Success: Cc1ccc(-c2cccc3c2N=C(C(CC(=O)O)c2nn(C)c(=O)[nH]2)C3)cn1
+[2024-01-15 06:12:52,060::sample::INFO] Success: CCC1NC(CC=C(OP(=O)(O)OP(=O)(O)OP(=O)(O)O)C(N)=O)C(O)C1O
+[2024-01-15 06:13:20,831::sample::WARNING] Duplicate molecule: Cc1ccc(-c2cccc3c2N=C(C(CC(=O)O)c2nn(C)c(=O)[nH]2)C3)cn1
+[2024-01-15 06:13:24,315::sample::WARNING] Duplicate molecule: Cc1ccc(-c2cccc3c2N=C(C(CC(=O)O)c2nn(C)c(=O)[nH]2)C3)cn1
+[2024-01-15 06:13:45,670::sample::WARNING] Duplicate molecule: COC1=CCNC(CCNC=O)COP(=O)(O)OP(=O)(O)OCC(=O)NC1=O
+[2024-01-15 06:14:28,914::sample::WARNING] Duplicate molecule: NC(=O)C(=CCC1NC(CO)C(O)C1O)OP(=O)(O)OP(=O)(O)OP(=O)(O)O
+[2024-01-15 06:14:36,131::sample::INFO] Success: COC1COC2(O)CC(NC(=O)NCCO)C(OP(=O)(O)OP(=O)(O)O)C2O1
+[2024-01-15 06:14:43,305::sample::INFO] Success: COC(=O)C(CNc1c(C)cccc1O)OP(=O)(O)OP(=O)(O)OP(=O)(O)O
+[2024-01-15 06:14:57,993::sample::INFO] [Pool] Queue 300 | Finished 308 | Failed 11
